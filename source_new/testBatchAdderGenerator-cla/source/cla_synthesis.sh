@@ -1,0 +1,14 @@
+#!/bin/bash
+qflow synthesize carry_lookahead_adder_4bit
+qflow synthesize carry_lookahead_adder_5bit
+qflow synthesize carry_lookahead_adder_6bit
+qflow synthesize carry_lookahead_adder_7bit
+qflow synthesize carry_lookahead_adder_8bit
+qflow synthesize carry_lookahead_adder_9bit
+qflow synthesize carry_lookahead_adder_10bit
+qflow synthesize carry_lookahead_adder_11bit
+qflow synthesize carry_lookahead_adder_12bit
+qflow synthesize carry_lookahead_adder_13bit
+qflow synthesize carry_lookahead_adder_14bit
+qflow synthesize carry_lookahead_adder_15bit
+qflow synthesize carry_lookahead_adder_16bit

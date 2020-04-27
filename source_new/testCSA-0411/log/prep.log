@@ -1,0 +1,12 @@
+Qflow project preparation output log Sat Apr 11 10:29:27 2020
+
+--------------------------------
+Qflow project setup
+--------------------------------
+
+Technology set to osu035_redm4
+Regenerating files for existing project csa_16bit
+
+No actions specified on command line;
+creating qflow script file /hdd/LT-user/Adder_Classification/source_new/testCSA-0411/qflow_exec.sh only.
+Uncomment lines in this file and source the file to run the flow.

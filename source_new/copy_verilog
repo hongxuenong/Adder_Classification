@@ -1,0 +1,4 @@
+cp /home/gpu-user-02/hdd/LT-user/Adder_Classification/source_new/generateBatchAdder_CSA/synthesis/*.rtlbb.v /home/gpu-user-02/hdd/LT-user/Adder_Classification/main/preprocessing/verilogs/
+cp /home/gpu-user-02/hdd/LT-user/Adder_Classification/source_new/generateBatchAdder_CSkipA/synthesis/*.rtlbb.v /home/gpu-user-02/hdd/LT-user/Adder_Classification/main/preprocessing/verilogs/
+cp /home/gpu-user-02/hdd/LT-user/Adder_Classification/source_new/testBatchAdderGenerator-cla/synthesis/*.rtlbb.v /home/gpu-user-02/hdd/LT-user/Adder_Classification/main/preprocessing/verilogs/
+cp /home/gpu-user-02/hdd/LT-user/Adder_Classification/source_new/testBatchAdderGenerator_rca/synthesis/*.rtlbb.v /home/gpu-user-02/hdd/LT-user/Adder_Classification/main/preprocessing/verilogs/

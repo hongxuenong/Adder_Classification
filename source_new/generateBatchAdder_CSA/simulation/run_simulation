@@ -1,0 +1,2 @@
+iverilog /usr/local/share/qflow/tech/osu035/osu035_stdcells.v csa_10bit.rtlnopwr.v csa_10_tb.v
+iverilog /usr/local/share/qflow/tech/osu035/osu035_stdcells.v up_counter.rtlnopwr.v up_counter_gates_tb.v

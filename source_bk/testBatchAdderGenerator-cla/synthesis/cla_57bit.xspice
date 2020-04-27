@@ -1,0 +1,1132 @@
+* XSpice netlist created from SPICE and liberty sources by spi2xspice.py
+*SPICE netlist created from BLIF module cla_57bit by blif2BSpice
+.subckt cla_57bit a_vdd a_gnd a_i_add1_0_ a_i_add1_1_ a_i_add1_2_ a_i_add1_3_ a_i_add1_4_ a_i_add1_5_ a_i_add1_6_ a_i_add1_7_ a_i_add1_8_ a_i_add1_9_ a_i_add1_10_ a_i_add1_11_ a_i_add1_12_ a_i_add1_13_ a_i_add1_14_ a_i_add1_15_ a_i_add1_16_ a_i_add1_17_ a_i_add1_18_ a_i_add1_19_ a_i_add1_20_ a_i_add1_21_ a_i_add1_22_ a_i_add1_23_ a_i_add1_24_ a_i_add1_25_ a_i_add1_26_ a_i_add1_27_ a_i_add1_28_ a_i_add1_29_ a_i_add1_30_ a_i_add1_31_ a_i_add1_32_ a_i_add1_33_ a_i_add1_34_ a_i_add1_35_ a_i_add1_36_ a_i_add1_37_ a_i_add1_38_ a_i_add1_39_ a_i_add1_40_ a_i_add1_41_ a_i_add1_42_ a_i_add1_43_ a_i_add1_44_ a_i_add1_45_ a_i_add1_46_ a_i_add1_47_ a_i_add1_48_ a_i_add1_49_ a_i_add1_50_ a_i_add1_51_ a_i_add1_52_ a_i_add1_53_ a_i_add1_54_ a_i_add1_55_ a_i_add1_56_ a_i_add2_0_ a_i_add2_1_ a_i_add2_2_ a_i_add2_3_ a_i_add2_4_ a_i_add2_5_ a_i_add2_6_ a_i_add2_7_ a_i_add2_8_ a_i_add2_9_ a_i_add2_10_ a_i_add2_11_ a_i_add2_12_ a_i_add2_13_ a_i_add2_14_ a_i_add2_15_ a_i_add2_16_ a_i_add2_17_ a_i_add2_18_ a_i_add2_19_ a_i_add2_20_ a_i_add2_21_ a_i_add2_22_ a_i_add2_23_ a_i_add2_24_ a_i_add2_25_ a_i_add2_26_ a_i_add2_27_ a_i_add2_28_ a_i_add2_29_ a_i_add2_30_ a_i_add2_31_ a_i_add2_32_ a_i_add2_33_ a_i_add2_34_ a_i_add2_35_ a_i_add2_36_ a_i_add2_37_ a_i_add2_38_ a_i_add2_39_ a_i_add2_40_ a_i_add2_41_ a_i_add2_42_ a_i_add2_43_ a_i_add2_44_ a_i_add2_45_ a_i_add2_46_ a_i_add2_47_ a_i_add2_48_ a_i_add2_49_ a_i_add2_50_ a_i_add2_51_ a_i_add2_52_ a_i_add2_53_ a_i_add2_54_ a_i_add2_55_ a_i_add2_56_ a_o_result_0_ a_o_result_1_ a_o_result_2_ a_o_result_3_ a_o_result_4_ a_o_result_5_ a_o_result_6_ a_o_result_7_ a_o_result_8_ a_o_result_9_ a_o_result_10_ a_o_result_11_ a_o_result_12_ a_o_result_13_ a_o_result_14_ a_o_result_15_ a_o_result_16_ a_o_result_17_ a_o_result_18_ a_o_result_19_ a_o_result_20_ a_o_result_21_ a_o_result_22_ a_o_result_23_ a_o_result_24_ a_o_result_25_ a_o_result_26_ a_o_result_27_ a_o_result_28_ a_o_result_29_ a_o_result_30_ a_o_result_31_ a_o_result_32_ a_o_result_33_ a_o_result_34_ a_o_result_35_ a_o_result_36_ a_o_result_37_ a_o_result_38_ a_o_result_39_ a_o_result_40_ a_o_result_41_ a_o_result_42_ a_o_result_43_ a_o_result_44_ a_o_result_45_ a_o_result_46_ a_o_result_47_ a_o_result_48_ a_o_result_49_ a_o_result_50_ a_o_result_51_ a_o_result_52_ a_o_result_53_ a_o_result_54_ a_o_result_55_ a_o_result_56_ a_o_result_57_
+ANAND2X1_1 [i_add2_53_ i_add1_53_] _324_ d_lut_NAND2X1
+ANOR2X1_1 [i_add2_53_ i_add1_53_] _325_ d_lut_NOR2X1
+AOAI21X1_1 [_325_ _323_ _324_] w_C_54_ d_lut_OAI21X1
+ANAND2X1_2 [i_add2_54_ i_add1_54_] _326_ d_lut_NAND2X1
+AINVX1_1 [_325_] _327_ d_lut_INVX1
+ANOR2X1_2 [i_add2_51_ i_add1_51_] _328_ d_lut_NOR2X1
+AINVX1_2 [_328_] _329_ d_lut_INVX1
+ANOR2X1_3 [_311_ _312_] _330_ d_lut_NOR2X1
+AINVX1_3 [_330_] _331_ d_lut_INVX1
+ANAND3X1_1 [_331_ _319_ _314_] _332_ d_lut_NAND3X1
+ANOR2X1_4 [i_add2_52_ i_add1_52_] _333_ d_lut_NOR2X1
+AINVX1_4 [_333_] _334_ d_lut_INVX1
+ANAND3X1_2 [_329_ _334_ _332_] _335_ d_lut_NAND3X1
+ANAND3X1_3 [_321_ _324_ _335_] _336_ d_lut_NAND3X1
+AOR2X2_1 [i_add2_54_ i_add1_54_] _337_ d_lut_OR2X2
+ANAND3X1_4 [_327_ _337_ _336_] _338_ d_lut_NAND3X1
+ANAND2X1_3 [_326_ _338_] w_C_55_ d_lut_NAND2X1
+AOR2X2_2 [i_add2_55_ i_add1_55_] _339_ d_lut_OR2X2
+ANAND2X1_4 [i_add2_55_ i_add1_55_] _340_ d_lut_NAND2X1
+ANAND3X1_5 [_326_ _340_ _338_] _341_ d_lut_NAND3X1
+AAND2X2_1 [_341_ _339_] w_C_56_ d_lut_AND2X2
+ANAND2X1_5 [i_add2_56_ i_add1_56_] _342_ d_lut_NAND2X1
+AOR2X2_3 [i_add2_56_ i_add1_56_] _343_ d_lut_OR2X2
+ANAND3X1_6 [_339_ _343_ _341_] _344_ d_lut_NAND3X1
+ANAND2X1_6 [_342_ _344_] w_C_57_ d_lut_NAND2X1
+ANAND2X1_7 [i_add2_0_ i_add1_0_] _0_ d_lut_NAND2X1
+AINVX1_5 [_0_] w_C_1_ d_lut_INVX1
+ANAND2X1_8 [i_add2_1_ i_add1_1_] _1_ d_lut_NAND2X1
+ANAND2X1_9 [_0_ _1_] _2_ d_lut_NAND2X1
+AOAI21X1_2 [i_add2_1_ i_add1_1_ _2_] _3_ d_lut_OAI21X1
+AINVX1_6 [_3_] w_C_2_ d_lut_INVX1
+ANAND2X1_10 [i_add2_2_ i_add1_2_] _4_ d_lut_NAND2X1
+AOR2X2_4 [i_add2_1_ i_add1_1_] _5_ d_lut_OR2X2
+AOR2X2_5 [i_add2_2_ i_add1_2_] _6_ d_lut_OR2X2
+ANAND3X1_7 [_5_ _6_ _2_] _7_ d_lut_NAND3X1
+ANAND2X1_11 [_4_ _7_] w_C_3_ d_lut_NAND2X1
+AINVX1_7 [i_add2_3_] _8_ d_lut_INVX1
+AINVX1_8 [i_add1_3_] _9_ d_lut_INVX1
+ANAND2X1_12 [_8_ _9_] _10_ d_lut_NAND2X1
+ANAND2X1_13 [i_add2_3_ i_add1_3_] _11_ d_lut_NAND2X1
+ANAND3X1_8 [_4_ _11_ _7_] _12_ d_lut_NAND3X1
+AAND2X2_2 [_12_ _10_] w_C_4_ d_lut_AND2X2
+ANAND2X1_14 [i_add2_4_ i_add1_4_] _13_ d_lut_NAND2X1
+AOR2X2_6 [i_add2_4_ i_add1_4_] _14_ d_lut_OR2X2
+ANAND3X1_9 [_10_ _14_ _12_] _15_ d_lut_NAND3X1
+ANAND2X1_15 [_13_ _15_] w_C_5_ d_lut_NAND2X1
+ANOR2X1_5 [i_add2_5_ i_add1_5_] _16_ d_lut_NOR2X1
+AINVX1_9 [_16_] _17_ d_lut_INVX1
+ANAND2X1_16 [i_add2_5_ i_add1_5_] _18_ d_lut_NAND2X1
+ANAND3X1_10 [_13_ _18_ _15_] _19_ d_lut_NAND3X1
+AAND2X2_3 [_19_ _17_] w_C_6_ d_lut_AND2X2
+AINVX1_10 [i_add2_6_] _20_ d_lut_INVX1
+AINVX1_11 [i_add1_6_] _21_ d_lut_INVX1
+ANOR2X1_6 [i_add2_6_ i_add1_6_] _22_ d_lut_NOR2X1
+AINVX1_12 [_22_] _23_ d_lut_INVX1
+ANAND3X1_11 [_17_ _23_ _19_] _24_ d_lut_NAND3X1
+AOAI21X1_3 [_20_ _21_ _24_] w_C_7_ d_lut_OAI21X1
+ANOR2X1_7 [_20_ _21_] _25_ d_lut_NOR2X1
+AINVX1_13 [_25_] _26_ d_lut_INVX1
+AAND2X2_4 [i_add2_7_ i_add1_7_] _27_ d_lut_AND2X2
+AINVX1_14 [_27_] _28_ d_lut_INVX1
+ANAND3X1_12 [_26_ _28_ _24_] _29_ d_lut_NAND3X1
+AOAI21X1_4 [i_add2_7_ i_add1_7_ _29_] _30_ d_lut_OAI21X1
+AINVX1_15 [_30_] w_C_8_ d_lut_INVX1
+AINVX1_16 [i_add2_8_] _31_ d_lut_INVX1
+AINVX1_17 [i_add1_8_] _32_ d_lut_INVX1
+ANOR2X1_8 [i_add2_7_ i_add1_7_] _33_ d_lut_NOR2X1
+AINVX1_18 [_33_] _34_ d_lut_INVX1
+ANOR2X1_9 [i_add2_8_ i_add1_8_] _35_ d_lut_NOR2X1
+AINVX1_19 [_35_] _36_ d_lut_INVX1
+ANAND3X1_13 [_34_ _36_ _29_] _37_ d_lut_NAND3X1
+AOAI21X1_5 [_31_ _32_ _37_] w_C_9_ d_lut_OAI21X1
+ANOR2X1_10 [_31_ _32_] _38_ d_lut_NOR2X1
+AINVX1_20 [_38_] _39_ d_lut_INVX1
+AAND2X2_5 [i_add2_9_ i_add1_9_] _40_ d_lut_AND2X2
+AINVX1_21 [_40_] _41_ d_lut_INVX1
+ANAND3X1_14 [_39_ _41_ _37_] _42_ d_lut_NAND3X1
+AOAI21X1_6 [i_add2_9_ i_add1_9_ _42_] _43_ d_lut_OAI21X1
+AINVX1_22 [_43_] w_C_10_ d_lut_INVX1
+AINVX1_23 [i_add2_10_] _44_ d_lut_INVX1
+AINVX1_24 [i_add1_10_] _45_ d_lut_INVX1
+ANOR2X1_11 [i_add2_9_ i_add1_9_] _46_ d_lut_NOR2X1
+AINVX1_25 [_46_] _47_ d_lut_INVX1
+ANOR2X1_12 [i_add2_10_ i_add1_10_] _48_ d_lut_NOR2X1
+AINVX1_26 [_48_] _49_ d_lut_INVX1
+ANAND3X1_15 [_47_ _49_ _42_] _50_ d_lut_NAND3X1
+AOAI21X1_7 [_44_ _45_ _50_] w_C_11_ d_lut_OAI21X1
+ANOR2X1_13 [_44_ _45_] _51_ d_lut_NOR2X1
+AINVX1_27 [_51_] _52_ d_lut_INVX1
+AAND2X2_6 [i_add2_11_ i_add1_11_] _53_ d_lut_AND2X2
+AINVX1_28 [_53_] _54_ d_lut_INVX1
+ANAND3X1_16 [_52_ _54_ _50_] _55_ d_lut_NAND3X1
+AOAI21X1_8 [i_add2_11_ i_add1_11_ _55_] _56_ d_lut_OAI21X1
+AINVX1_29 [_56_] w_C_12_ d_lut_INVX1
+AINVX1_30 [i_add2_12_] _57_ d_lut_INVX1
+AINVX1_31 [i_add1_12_] _58_ d_lut_INVX1
+ANOR2X1_14 [i_add2_11_ i_add1_11_] _59_ d_lut_NOR2X1
+AINVX1_32 [_59_] _60_ d_lut_INVX1
+ANOR2X1_15 [i_add2_12_ i_add1_12_] _61_ d_lut_NOR2X1
+AINVX1_33 [_61_] _62_ d_lut_INVX1
+ANAND3X1_17 [_60_ _62_ _55_] _63_ d_lut_NAND3X1
+AOAI21X1_9 [_57_ _58_ _63_] w_C_13_ d_lut_OAI21X1
+ANOR2X1_16 [_57_ _58_] _64_ d_lut_NOR2X1
+AINVX1_34 [_64_] _65_ d_lut_INVX1
+AAND2X2_7 [i_add2_13_ i_add1_13_] _66_ d_lut_AND2X2
+AINVX1_35 [_66_] _67_ d_lut_INVX1
+ANAND3X1_18 [_65_ _67_ _63_] _68_ d_lut_NAND3X1
+AOAI21X1_10 [i_add2_13_ i_add1_13_ _68_] _69_ d_lut_OAI21X1
+AINVX1_36 [_69_] w_C_14_ d_lut_INVX1
+AINVX1_37 [i_add2_14_] _70_ d_lut_INVX1
+AINVX1_38 [i_add1_14_] _71_ d_lut_INVX1
+ANOR2X1_17 [i_add2_13_ i_add1_13_] _72_ d_lut_NOR2X1
+AINVX1_39 [_72_] _73_ d_lut_INVX1
+ANOR2X1_18 [i_add2_14_ i_add1_14_] _74_ d_lut_NOR2X1
+AINVX1_40 [_74_] _75_ d_lut_INVX1
+ANAND3X1_19 [_73_ _75_ _68_] _76_ d_lut_NAND3X1
+AOAI21X1_11 [_70_ _71_ _76_] w_C_15_ d_lut_OAI21X1
+ANOR2X1_19 [_70_ _71_] _77_ d_lut_NOR2X1
+AINVX1_41 [_77_] _78_ d_lut_INVX1
+AAND2X2_8 [i_add2_15_ i_add1_15_] _79_ d_lut_AND2X2
+AINVX1_42 [_79_] _80_ d_lut_INVX1
+ANAND3X1_20 [_78_ _80_ _76_] _81_ d_lut_NAND3X1
+AOAI21X1_12 [i_add2_15_ i_add1_15_ _81_] _82_ d_lut_OAI21X1
+AINVX1_43 [_82_] w_C_16_ d_lut_INVX1
+AINVX1_44 [i_add2_16_] _83_ d_lut_INVX1
+AINVX1_45 [i_add1_16_] _84_ d_lut_INVX1
+ANOR2X1_20 [i_add2_15_ i_add1_15_] _85_ d_lut_NOR2X1
+AINVX1_46 [_85_] _86_ d_lut_INVX1
+ANOR2X1_21 [i_add2_16_ i_add1_16_] _87_ d_lut_NOR2X1
+AINVX1_47 [_87_] _88_ d_lut_INVX1
+ANAND3X1_21 [_86_ _88_ _81_] _89_ d_lut_NAND3X1
+AOAI21X1_13 [_83_ _84_ _89_] w_C_17_ d_lut_OAI21X1
+ANOR2X1_22 [_83_ _84_] _90_ d_lut_NOR2X1
+AINVX1_48 [_90_] _91_ d_lut_INVX1
+AAND2X2_9 [i_add2_17_ i_add1_17_] _92_ d_lut_AND2X2
+AINVX1_49 [_92_] _93_ d_lut_INVX1
+ANAND3X1_22 [_91_ _93_ _89_] _94_ d_lut_NAND3X1
+AOAI21X1_14 [i_add2_17_ i_add1_17_ _94_] _95_ d_lut_OAI21X1
+AINVX1_50 [_95_] w_C_18_ d_lut_INVX1
+AINVX1_51 [i_add2_18_] _96_ d_lut_INVX1
+AINVX1_52 [i_add1_18_] _97_ d_lut_INVX1
+ANOR2X1_23 [_96_ _97_] _98_ d_lut_NOR2X1
+AINVX1_53 [_98_] _99_ d_lut_INVX1
+ANOR2X1_24 [i_add2_17_ i_add1_17_] _100_ d_lut_NOR2X1
+AINVX1_54 [_100_] _101_ d_lut_INVX1
+ANOR2X1_25 [i_add2_18_ i_add1_18_] _102_ d_lut_NOR2X1
+AINVX1_55 [_102_] _103_ d_lut_INVX1
+ABUFX2_1 [_345__0_] o_result_0_ d_lut_BUFX2
+ABUFX2_2 [_345__1_] o_result_1_ d_lut_BUFX2
+ABUFX2_3 [_345__2_] o_result_2_ d_lut_BUFX2
+ABUFX2_4 [_345__3_] o_result_3_ d_lut_BUFX2
+ABUFX2_5 [_345__4_] o_result_4_ d_lut_BUFX2
+ABUFX2_6 [_345__5_] o_result_5_ d_lut_BUFX2
+ABUFX2_7 [_345__6_] o_result_6_ d_lut_BUFX2
+ABUFX2_8 [_345__7_] o_result_7_ d_lut_BUFX2
+ABUFX2_9 [_345__8_] o_result_8_ d_lut_BUFX2
+ABUFX2_10 [_345__9_] o_result_9_ d_lut_BUFX2
+ABUFX2_11 [_345__10_] o_result_10_ d_lut_BUFX2
+ABUFX2_12 [_345__11_] o_result_11_ d_lut_BUFX2
+ABUFX2_13 [_345__12_] o_result_12_ d_lut_BUFX2
+ABUFX2_14 [_345__13_] o_result_13_ d_lut_BUFX2
+ABUFX2_15 [_345__14_] o_result_14_ d_lut_BUFX2
+ABUFX2_16 [_345__15_] o_result_15_ d_lut_BUFX2
+ABUFX2_17 [_345__16_] o_result_16_ d_lut_BUFX2
+ABUFX2_18 [_345__17_] o_result_17_ d_lut_BUFX2
+ABUFX2_19 [_345__18_] o_result_18_ d_lut_BUFX2
+ABUFX2_20 [_345__19_] o_result_19_ d_lut_BUFX2
+ABUFX2_21 [_345__20_] o_result_20_ d_lut_BUFX2
+ABUFX2_22 [_345__21_] o_result_21_ d_lut_BUFX2
+ABUFX2_23 [_345__22_] o_result_22_ d_lut_BUFX2
+ABUFX2_24 [_345__23_] o_result_23_ d_lut_BUFX2
+ABUFX2_25 [_345__24_] o_result_24_ d_lut_BUFX2
+ABUFX2_26 [_345__25_] o_result_25_ d_lut_BUFX2
+ABUFX2_27 [_345__26_] o_result_26_ d_lut_BUFX2
+ABUFX2_28 [_345__27_] o_result_27_ d_lut_BUFX2
+ABUFX2_29 [_345__28_] o_result_28_ d_lut_BUFX2
+ABUFX2_30 [_345__29_] o_result_29_ d_lut_BUFX2
+ABUFX2_31 [_345__30_] o_result_30_ d_lut_BUFX2
+ABUFX2_32 [_345__31_] o_result_31_ d_lut_BUFX2
+ABUFX2_33 [_345__32_] o_result_32_ d_lut_BUFX2
+ABUFX2_34 [_345__33_] o_result_33_ d_lut_BUFX2
+ABUFX2_35 [_345__34_] o_result_34_ d_lut_BUFX2
+ABUFX2_36 [_345__35_] o_result_35_ d_lut_BUFX2
+ABUFX2_37 [_345__36_] o_result_36_ d_lut_BUFX2
+ABUFX2_38 [_345__37_] o_result_37_ d_lut_BUFX2
+ABUFX2_39 [_345__38_] o_result_38_ d_lut_BUFX2
+ABUFX2_40 [_345__39_] o_result_39_ d_lut_BUFX2
+ABUFX2_41 [_345__40_] o_result_40_ d_lut_BUFX2
+ABUFX2_42 [_345__41_] o_result_41_ d_lut_BUFX2
+ABUFX2_43 [_345__42_] o_result_42_ d_lut_BUFX2
+ABUFX2_44 [_345__43_] o_result_43_ d_lut_BUFX2
+ABUFX2_45 [_345__44_] o_result_44_ d_lut_BUFX2
+ABUFX2_46 [_345__45_] o_result_45_ d_lut_BUFX2
+ABUFX2_47 [_345__46_] o_result_46_ d_lut_BUFX2
+ABUFX2_48 [_345__47_] o_result_47_ d_lut_BUFX2
+ABUFX2_49 [_345__48_] o_result_48_ d_lut_BUFX2
+ABUFX2_50 [_345__49_] o_result_49_ d_lut_BUFX2
+ABUFX2_51 [_345__50_] o_result_50_ d_lut_BUFX2
+ABUFX2_52 [_345__51_] o_result_51_ d_lut_BUFX2
+ABUFX2_53 [_345__52_] o_result_52_ d_lut_BUFX2
+ABUFX2_54 [_345__53_] o_result_53_ d_lut_BUFX2
+ABUFX2_55 [_345__54_] o_result_54_ d_lut_BUFX2
+ABUFX2_56 [_345__55_] o_result_55_ d_lut_BUFX2
+ABUFX2_57 [_345__56_] o_result_56_ d_lut_BUFX2
+ABUFX2_58 [w_C_57_] o_result_57_ d_lut_BUFX2
+AINVX1_56 [w_C_4_] _349_ d_lut_INVX1
+AOR2X2_7 [i_add2_4_ i_add1_4_] _350_ d_lut_OR2X2
+ANAND2X1_17 [i_add2_4_ i_add1_4_] _351_ d_lut_NAND2X1
+ANAND3X1_23 [_349_ _351_ _350_] _352_ d_lut_NAND3X1
+ANOR2X1_26 [i_add2_4_ i_add1_4_] _346_ d_lut_NOR2X1
+AAND2X2_10 [i_add2_4_ i_add1_4_] _347_ d_lut_AND2X2
+AOAI21X1_15 [_346_ _347_ w_C_4_] _348_ d_lut_OAI21X1
+ANAND2X1_18 [_348_ _352_] _345__4_ d_lut_NAND2X1
+AINVX1_57 [w_C_5_] _356_ d_lut_INVX1
+AOR2X2_8 [i_add2_5_ i_add1_5_] _357_ d_lut_OR2X2
+ANAND2X1_19 [i_add2_5_ i_add1_5_] _358_ d_lut_NAND2X1
+ANAND3X1_24 [_356_ _358_ _357_] _359_ d_lut_NAND3X1
+ANOR2X1_27 [i_add2_5_ i_add1_5_] _353_ d_lut_NOR2X1
+AAND2X2_11 [i_add2_5_ i_add1_5_] _354_ d_lut_AND2X2
+AOAI21X1_16 [_353_ _354_ w_C_5_] _355_ d_lut_OAI21X1
+ANAND2X1_20 [_355_ _359_] _345__5_ d_lut_NAND2X1
+AINVX1_58 [w_C_6_] _363_ d_lut_INVX1
+AOR2X2_9 [i_add2_6_ i_add1_6_] _364_ d_lut_OR2X2
+ANAND2X1_21 [i_add2_6_ i_add1_6_] _365_ d_lut_NAND2X1
+ANAND3X1_25 [_363_ _365_ _364_] _366_ d_lut_NAND3X1
+ANOR2X1_28 [i_add2_6_ i_add1_6_] _360_ d_lut_NOR2X1
+AAND2X2_12 [i_add2_6_ i_add1_6_] _361_ d_lut_AND2X2
+AOAI21X1_17 [_360_ _361_ w_C_6_] _362_ d_lut_OAI21X1
+ANAND2X1_22 [_362_ _366_] _345__6_ d_lut_NAND2X1
+AINVX1_59 [w_C_7_] _370_ d_lut_INVX1
+AOR2X2_10 [i_add2_7_ i_add1_7_] _371_ d_lut_OR2X2
+ANAND2X1_23 [i_add2_7_ i_add1_7_] _372_ d_lut_NAND2X1
+ANAND3X1_26 [_370_ _372_ _371_] _373_ d_lut_NAND3X1
+ANOR2X1_29 [i_add2_7_ i_add1_7_] _367_ d_lut_NOR2X1
+AAND2X2_13 [i_add2_7_ i_add1_7_] _368_ d_lut_AND2X2
+AOAI21X1_18 [_367_ _368_ w_C_7_] _369_ d_lut_OAI21X1
+ANAND2X1_24 [_369_ _373_] _345__7_ d_lut_NAND2X1
+AINVX1_60 [w_C_8_] _377_ d_lut_INVX1
+AOR2X2_11 [i_add2_8_ i_add1_8_] _378_ d_lut_OR2X2
+ANAND2X1_25 [i_add2_8_ i_add1_8_] _379_ d_lut_NAND2X1
+ANAND3X1_27 [_377_ _379_ _378_] _380_ d_lut_NAND3X1
+ANOR2X1_30 [i_add2_8_ i_add1_8_] _374_ d_lut_NOR2X1
+AAND2X2_14 [i_add2_8_ i_add1_8_] _375_ d_lut_AND2X2
+AOAI21X1_19 [_374_ _375_ w_C_8_] _376_ d_lut_OAI21X1
+ANAND2X1_26 [_376_ _380_] _345__8_ d_lut_NAND2X1
+AINVX1_61 [w_C_9_] _384_ d_lut_INVX1
+AOR2X2_12 [i_add2_9_ i_add1_9_] _385_ d_lut_OR2X2
+ANAND2X1_27 [i_add2_9_ i_add1_9_] _386_ d_lut_NAND2X1
+ANAND3X1_28 [_384_ _386_ _385_] _387_ d_lut_NAND3X1
+ANOR2X1_31 [i_add2_9_ i_add1_9_] _381_ d_lut_NOR2X1
+AAND2X2_15 [i_add2_9_ i_add1_9_] _382_ d_lut_AND2X2
+AOAI21X1_20 [_381_ _382_ w_C_9_] _383_ d_lut_OAI21X1
+ANAND2X1_28 [_383_ _387_] _345__9_ d_lut_NAND2X1
+AINVX1_62 [w_C_10_] _391_ d_lut_INVX1
+AOR2X2_13 [i_add2_10_ i_add1_10_] _392_ d_lut_OR2X2
+ANAND2X1_29 [i_add2_10_ i_add1_10_] _393_ d_lut_NAND2X1
+ANAND3X1_29 [_391_ _393_ _392_] _394_ d_lut_NAND3X1
+ANOR2X1_32 [i_add2_10_ i_add1_10_] _388_ d_lut_NOR2X1
+AAND2X2_16 [i_add2_10_ i_add1_10_] _389_ d_lut_AND2X2
+AOAI21X1_21 [_388_ _389_ w_C_10_] _390_ d_lut_OAI21X1
+ANAND2X1_30 [_390_ _394_] _345__10_ d_lut_NAND2X1
+AINVX1_63 [w_C_11_] _398_ d_lut_INVX1
+AOR2X2_14 [i_add2_11_ i_add1_11_] _399_ d_lut_OR2X2
+ANAND2X1_31 [i_add2_11_ i_add1_11_] _400_ d_lut_NAND2X1
+ANAND3X1_30 [_398_ _400_ _399_] _401_ d_lut_NAND3X1
+ANOR2X1_33 [i_add2_11_ i_add1_11_] _395_ d_lut_NOR2X1
+AAND2X2_17 [i_add2_11_ i_add1_11_] _396_ d_lut_AND2X2
+AOAI21X1_22 [_395_ _396_ w_C_11_] _397_ d_lut_OAI21X1
+ANAND2X1_32 [_397_ _401_] _345__11_ d_lut_NAND2X1
+AINVX1_64 [w_C_12_] _405_ d_lut_INVX1
+AOR2X2_15 [i_add2_12_ i_add1_12_] _406_ d_lut_OR2X2
+ANAND2X1_33 [i_add2_12_ i_add1_12_] _407_ d_lut_NAND2X1
+ANAND3X1_31 [_405_ _407_ _406_] _408_ d_lut_NAND3X1
+ANOR2X1_34 [i_add2_12_ i_add1_12_] _402_ d_lut_NOR2X1
+AAND2X2_18 [i_add2_12_ i_add1_12_] _403_ d_lut_AND2X2
+AOAI21X1_23 [_402_ _403_ w_C_12_] _404_ d_lut_OAI21X1
+ANAND2X1_34 [_404_ _408_] _345__12_ d_lut_NAND2X1
+AINVX1_65 [w_C_13_] _412_ d_lut_INVX1
+AOR2X2_16 [i_add2_13_ i_add1_13_] _413_ d_lut_OR2X2
+ANAND2X1_35 [i_add2_13_ i_add1_13_] _414_ d_lut_NAND2X1
+ANAND3X1_32 [_412_ _414_ _413_] _415_ d_lut_NAND3X1
+ANOR2X1_35 [i_add2_13_ i_add1_13_] _409_ d_lut_NOR2X1
+AAND2X2_19 [i_add2_13_ i_add1_13_] _410_ d_lut_AND2X2
+AOAI21X1_24 [_409_ _410_ w_C_13_] _411_ d_lut_OAI21X1
+ANAND2X1_36 [_411_ _415_] _345__13_ d_lut_NAND2X1
+AINVX1_66 [w_C_14_] _419_ d_lut_INVX1
+AOR2X2_17 [i_add2_14_ i_add1_14_] _420_ d_lut_OR2X2
+ANAND2X1_37 [i_add2_14_ i_add1_14_] _421_ d_lut_NAND2X1
+ANAND3X1_33 [_419_ _421_ _420_] _422_ d_lut_NAND3X1
+ANOR2X1_36 [i_add2_14_ i_add1_14_] _416_ d_lut_NOR2X1
+AAND2X2_20 [i_add2_14_ i_add1_14_] _417_ d_lut_AND2X2
+AOAI21X1_25 [_416_ _417_ w_C_14_] _418_ d_lut_OAI21X1
+ANAND2X1_38 [_418_ _422_] _345__14_ d_lut_NAND2X1
+AINVX1_67 [w_C_15_] _426_ d_lut_INVX1
+AOR2X2_18 [i_add2_15_ i_add1_15_] _427_ d_lut_OR2X2
+ANAND2X1_39 [i_add2_15_ i_add1_15_] _428_ d_lut_NAND2X1
+ANAND3X1_34 [_426_ _428_ _427_] _429_ d_lut_NAND3X1
+ANOR2X1_37 [i_add2_15_ i_add1_15_] _423_ d_lut_NOR2X1
+AAND2X2_21 [i_add2_15_ i_add1_15_] _424_ d_lut_AND2X2
+AOAI21X1_26 [_423_ _424_ w_C_15_] _425_ d_lut_OAI21X1
+ANAND2X1_40 [_425_ _429_] _345__15_ d_lut_NAND2X1
+AINVX1_68 [w_C_16_] _433_ d_lut_INVX1
+AOR2X2_19 [i_add2_16_ i_add1_16_] _434_ d_lut_OR2X2
+ANAND2X1_41 [i_add2_16_ i_add1_16_] _435_ d_lut_NAND2X1
+ANAND3X1_35 [_433_ _435_ _434_] _436_ d_lut_NAND3X1
+ANOR2X1_38 [i_add2_16_ i_add1_16_] _430_ d_lut_NOR2X1
+AAND2X2_22 [i_add2_16_ i_add1_16_] _431_ d_lut_AND2X2
+AOAI21X1_27 [_430_ _431_ w_C_16_] _432_ d_lut_OAI21X1
+ANAND2X1_42 [_432_ _436_] _345__16_ d_lut_NAND2X1
+AINVX1_69 [w_C_17_] _440_ d_lut_INVX1
+AOR2X2_20 [i_add2_17_ i_add1_17_] _441_ d_lut_OR2X2
+ANAND2X1_43 [i_add2_17_ i_add1_17_] _442_ d_lut_NAND2X1
+ANAND3X1_36 [_440_ _442_ _441_] _443_ d_lut_NAND3X1
+ANOR2X1_39 [i_add2_17_ i_add1_17_] _437_ d_lut_NOR2X1
+AAND2X2_23 [i_add2_17_ i_add1_17_] _438_ d_lut_AND2X2
+AOAI21X1_28 [_437_ _438_ w_C_17_] _439_ d_lut_OAI21X1
+ANAND2X1_44 [_439_ _443_] _345__17_ d_lut_NAND2X1
+AINVX1_70 [w_C_18_] _447_ d_lut_INVX1
+AOR2X2_21 [i_add2_18_ i_add1_18_] _448_ d_lut_OR2X2
+ANAND2X1_45 [i_add2_18_ i_add1_18_] _449_ d_lut_NAND2X1
+ANAND3X1_37 [_447_ _449_ _448_] _450_ d_lut_NAND3X1
+ANOR2X1_40 [i_add2_18_ i_add1_18_] _444_ d_lut_NOR2X1
+AAND2X2_24 [i_add2_18_ i_add1_18_] _445_ d_lut_AND2X2
+AOAI21X1_29 [_444_ _445_ w_C_18_] _446_ d_lut_OAI21X1
+ANAND2X1_46 [_446_ _450_] _345__18_ d_lut_NAND2X1
+AINVX1_71 [w_C_19_] _454_ d_lut_INVX1
+AOR2X2_22 [i_add2_19_ i_add1_19_] _455_ d_lut_OR2X2
+ANAND2X1_47 [i_add2_19_ i_add1_19_] _456_ d_lut_NAND2X1
+ANAND3X1_38 [_454_ _456_ _455_] _457_ d_lut_NAND3X1
+ANOR2X1_41 [i_add2_19_ i_add1_19_] _451_ d_lut_NOR2X1
+AAND2X2_25 [i_add2_19_ i_add1_19_] _452_ d_lut_AND2X2
+AOAI21X1_30 [_451_ _452_ w_C_19_] _453_ d_lut_OAI21X1
+ANAND2X1_48 [_453_ _457_] _345__19_ d_lut_NAND2X1
+AINVX1_72 [w_C_20_] _461_ d_lut_INVX1
+AOR2X2_23 [i_add2_20_ i_add1_20_] _462_ d_lut_OR2X2
+ANAND2X1_49 [i_add2_20_ i_add1_20_] _463_ d_lut_NAND2X1
+ANAND3X1_39 [_461_ _463_ _462_] _464_ d_lut_NAND3X1
+ANOR2X1_42 [i_add2_20_ i_add1_20_] _458_ d_lut_NOR2X1
+AAND2X2_26 [i_add2_20_ i_add1_20_] _459_ d_lut_AND2X2
+AOAI21X1_31 [_458_ _459_ w_C_20_] _460_ d_lut_OAI21X1
+ANAND2X1_50 [_460_ _464_] _345__20_ d_lut_NAND2X1
+AINVX1_73 [w_C_21_] _468_ d_lut_INVX1
+AOR2X2_24 [i_add2_21_ i_add1_21_] _469_ d_lut_OR2X2
+ANAND2X1_51 [i_add2_21_ i_add1_21_] _470_ d_lut_NAND2X1
+ANAND3X1_40 [_468_ _470_ _469_] _471_ d_lut_NAND3X1
+ANOR2X1_43 [i_add2_21_ i_add1_21_] _465_ d_lut_NOR2X1
+AAND2X2_27 [i_add2_21_ i_add1_21_] _466_ d_lut_AND2X2
+AOAI21X1_32 [_465_ _466_ w_C_21_] _467_ d_lut_OAI21X1
+ANAND2X1_52 [_467_ _471_] _345__21_ d_lut_NAND2X1
+AINVX1_74 [w_C_22_] _475_ d_lut_INVX1
+AOR2X2_25 [i_add2_22_ i_add1_22_] _476_ d_lut_OR2X2
+ANAND2X1_53 [i_add2_22_ i_add1_22_] _477_ d_lut_NAND2X1
+ANAND3X1_41 [_475_ _477_ _476_] _478_ d_lut_NAND3X1
+ANOR2X1_44 [i_add2_22_ i_add1_22_] _472_ d_lut_NOR2X1
+AAND2X2_28 [i_add2_22_ i_add1_22_] _473_ d_lut_AND2X2
+AOAI21X1_33 [_472_ _473_ w_C_22_] _474_ d_lut_OAI21X1
+ANAND2X1_54 [_474_ _478_] _345__22_ d_lut_NAND2X1
+AINVX1_75 [w_C_23_] _482_ d_lut_INVX1
+AOR2X2_26 [i_add2_23_ i_add1_23_] _483_ d_lut_OR2X2
+ANAND2X1_55 [i_add2_23_ i_add1_23_] _484_ d_lut_NAND2X1
+ANAND3X1_42 [_482_ _484_ _483_] _485_ d_lut_NAND3X1
+ANOR2X1_45 [i_add2_23_ i_add1_23_] _479_ d_lut_NOR2X1
+AAND2X2_29 [i_add2_23_ i_add1_23_] _480_ d_lut_AND2X2
+AOAI21X1_34 [_479_ _480_ w_C_23_] _481_ d_lut_OAI21X1
+ANAND2X1_56 [_481_ _485_] _345__23_ d_lut_NAND2X1
+AINVX1_76 [w_C_24_] _489_ d_lut_INVX1
+AOR2X2_27 [i_add2_24_ i_add1_24_] _490_ d_lut_OR2X2
+ANAND2X1_57 [i_add2_24_ i_add1_24_] _491_ d_lut_NAND2X1
+ANAND3X1_43 [_489_ _491_ _490_] _492_ d_lut_NAND3X1
+ANOR2X1_46 [i_add2_24_ i_add1_24_] _486_ d_lut_NOR2X1
+AAND2X2_30 [i_add2_24_ i_add1_24_] _487_ d_lut_AND2X2
+AOAI21X1_35 [_486_ _487_ w_C_24_] _488_ d_lut_OAI21X1
+ANAND2X1_58 [_488_ _492_] _345__24_ d_lut_NAND2X1
+AINVX1_77 [w_C_25_] _496_ d_lut_INVX1
+AOR2X2_28 [i_add2_25_ i_add1_25_] _497_ d_lut_OR2X2
+ANAND2X1_59 [i_add2_25_ i_add1_25_] _498_ d_lut_NAND2X1
+ANAND3X1_44 [_496_ _498_ _497_] _499_ d_lut_NAND3X1
+ANOR2X1_47 [i_add2_25_ i_add1_25_] _493_ d_lut_NOR2X1
+AAND2X2_31 [i_add2_25_ i_add1_25_] _494_ d_lut_AND2X2
+AOAI21X1_36 [_493_ _494_ w_C_25_] _495_ d_lut_OAI21X1
+ANAND2X1_60 [_495_ _499_] _345__25_ d_lut_NAND2X1
+AINVX1_78 [w_C_26_] _503_ d_lut_INVX1
+AOR2X2_29 [i_add2_26_ i_add1_26_] _504_ d_lut_OR2X2
+ANAND2X1_61 [i_add2_26_ i_add1_26_] _505_ d_lut_NAND2X1
+ANAND3X1_45 [_503_ _505_ _504_] _506_ d_lut_NAND3X1
+ANOR2X1_48 [i_add2_26_ i_add1_26_] _500_ d_lut_NOR2X1
+AAND2X2_32 [i_add2_26_ i_add1_26_] _501_ d_lut_AND2X2
+AOAI21X1_37 [_500_ _501_ w_C_26_] _502_ d_lut_OAI21X1
+ANAND2X1_62 [_502_ _506_] _345__26_ d_lut_NAND2X1
+AINVX1_79 [w_C_27_] _510_ d_lut_INVX1
+AOR2X2_30 [i_add2_27_ i_add1_27_] _511_ d_lut_OR2X2
+ANAND2X1_63 [i_add2_27_ i_add1_27_] _512_ d_lut_NAND2X1
+ANAND3X1_46 [_510_ _512_ _511_] _513_ d_lut_NAND3X1
+ANOR2X1_49 [i_add2_27_ i_add1_27_] _507_ d_lut_NOR2X1
+AAND2X2_33 [i_add2_27_ i_add1_27_] _508_ d_lut_AND2X2
+AOAI21X1_38 [_507_ _508_ w_C_27_] _509_ d_lut_OAI21X1
+ANAND2X1_64 [_509_ _513_] _345__27_ d_lut_NAND2X1
+AINVX1_80 [w_C_28_] _517_ d_lut_INVX1
+AOR2X2_31 [i_add2_28_ i_add1_28_] _518_ d_lut_OR2X2
+ANAND2X1_65 [i_add2_28_ i_add1_28_] _519_ d_lut_NAND2X1
+ANAND3X1_47 [_517_ _519_ _518_] _520_ d_lut_NAND3X1
+ANOR2X1_50 [i_add2_28_ i_add1_28_] _514_ d_lut_NOR2X1
+AAND2X2_34 [i_add2_28_ i_add1_28_] _515_ d_lut_AND2X2
+AOAI21X1_39 [_514_ _515_ w_C_28_] _516_ d_lut_OAI21X1
+ANAND2X1_66 [_516_ _520_] _345__28_ d_lut_NAND2X1
+AINVX1_81 [w_C_29_] _524_ d_lut_INVX1
+AOR2X2_32 [i_add2_29_ i_add1_29_] _525_ d_lut_OR2X2
+ANAND2X1_67 [i_add2_29_ i_add1_29_] _526_ d_lut_NAND2X1
+ANAND3X1_48 [_524_ _526_ _525_] _527_ d_lut_NAND3X1
+ANOR2X1_51 [i_add2_29_ i_add1_29_] _521_ d_lut_NOR2X1
+AAND2X2_35 [i_add2_29_ i_add1_29_] _522_ d_lut_AND2X2
+AOAI21X1_40 [_521_ _522_ w_C_29_] _523_ d_lut_OAI21X1
+ANAND2X1_68 [_523_ _527_] _345__29_ d_lut_NAND2X1
+AINVX1_82 [w_C_30_] _531_ d_lut_INVX1
+AOR2X2_33 [i_add2_30_ i_add1_30_] _532_ d_lut_OR2X2
+ANAND2X1_69 [i_add2_30_ i_add1_30_] _533_ d_lut_NAND2X1
+ANAND3X1_49 [_531_ _533_ _532_] _534_ d_lut_NAND3X1
+ANOR2X1_52 [i_add2_30_ i_add1_30_] _528_ d_lut_NOR2X1
+AAND2X2_36 [i_add2_30_ i_add1_30_] _529_ d_lut_AND2X2
+AOAI21X1_41 [_528_ _529_ w_C_30_] _530_ d_lut_OAI21X1
+ANAND2X1_70 [_530_ _534_] _345__30_ d_lut_NAND2X1
+AINVX1_83 [w_C_31_] _538_ d_lut_INVX1
+AOR2X2_34 [i_add2_31_ i_add1_31_] _539_ d_lut_OR2X2
+ANAND2X1_71 [i_add2_31_ i_add1_31_] _540_ d_lut_NAND2X1
+ANAND3X1_50 [_538_ _540_ _539_] _541_ d_lut_NAND3X1
+ANOR2X1_53 [i_add2_31_ i_add1_31_] _535_ d_lut_NOR2X1
+AAND2X2_37 [i_add2_31_ i_add1_31_] _536_ d_lut_AND2X2
+AOAI21X1_42 [_535_ _536_ w_C_31_] _537_ d_lut_OAI21X1
+ANAND2X1_72 [_537_ _541_] _345__31_ d_lut_NAND2X1
+AINVX1_84 [w_C_32_] _545_ d_lut_INVX1
+AOR2X2_35 [i_add2_32_ i_add1_32_] _546_ d_lut_OR2X2
+ANAND2X1_73 [i_add2_32_ i_add1_32_] _547_ d_lut_NAND2X1
+ANAND3X1_51 [_545_ _547_ _546_] _548_ d_lut_NAND3X1
+ANOR2X1_54 [i_add2_32_ i_add1_32_] _542_ d_lut_NOR2X1
+AAND2X2_38 [i_add2_32_ i_add1_32_] _543_ d_lut_AND2X2
+AOAI21X1_43 [_542_ _543_ w_C_32_] _544_ d_lut_OAI21X1
+ANAND2X1_74 [_544_ _548_] _345__32_ d_lut_NAND2X1
+AINVX1_85 [w_C_33_] _552_ d_lut_INVX1
+AOR2X2_36 [i_add2_33_ i_add1_33_] _553_ d_lut_OR2X2
+ANAND2X1_75 [i_add2_33_ i_add1_33_] _554_ d_lut_NAND2X1
+ANAND3X1_52 [_552_ _554_ _553_] _555_ d_lut_NAND3X1
+ANOR2X1_55 [i_add2_33_ i_add1_33_] _549_ d_lut_NOR2X1
+AAND2X2_39 [i_add2_33_ i_add1_33_] _550_ d_lut_AND2X2
+AOAI21X1_44 [_549_ _550_ w_C_33_] _551_ d_lut_OAI21X1
+ANAND2X1_76 [_551_ _555_] _345__33_ d_lut_NAND2X1
+AINVX1_86 [w_C_34_] _559_ d_lut_INVX1
+AOR2X2_37 [i_add2_34_ i_add1_34_] _560_ d_lut_OR2X2
+ANAND2X1_77 [i_add2_34_ i_add1_34_] _561_ d_lut_NAND2X1
+ANAND3X1_53 [_559_ _561_ _560_] _562_ d_lut_NAND3X1
+ANOR2X1_56 [i_add2_34_ i_add1_34_] _556_ d_lut_NOR2X1
+AAND2X2_40 [i_add2_34_ i_add1_34_] _557_ d_lut_AND2X2
+AOAI21X1_45 [_556_ _557_ w_C_34_] _558_ d_lut_OAI21X1
+ANAND2X1_78 [_558_ _562_] _345__34_ d_lut_NAND2X1
+AINVX1_87 [w_C_35_] _566_ d_lut_INVX1
+AOR2X2_38 [i_add2_35_ i_add1_35_] _567_ d_lut_OR2X2
+ANAND2X1_79 [i_add2_35_ i_add1_35_] _568_ d_lut_NAND2X1
+ANAND3X1_54 [_566_ _568_ _567_] _569_ d_lut_NAND3X1
+ANOR2X1_57 [i_add2_35_ i_add1_35_] _563_ d_lut_NOR2X1
+AAND2X2_41 [i_add2_35_ i_add1_35_] _564_ d_lut_AND2X2
+AOAI21X1_46 [_563_ _564_ w_C_35_] _565_ d_lut_OAI21X1
+ANAND2X1_80 [_565_ _569_] _345__35_ d_lut_NAND2X1
+AINVX1_88 [w_C_36_] _573_ d_lut_INVX1
+AOR2X2_39 [i_add2_36_ i_add1_36_] _574_ d_lut_OR2X2
+ANAND2X1_81 [i_add2_36_ i_add1_36_] _575_ d_lut_NAND2X1
+ANAND3X1_55 [_573_ _575_ _574_] _576_ d_lut_NAND3X1
+ANOR2X1_58 [i_add2_36_ i_add1_36_] _570_ d_lut_NOR2X1
+AAND2X2_42 [i_add2_36_ i_add1_36_] _571_ d_lut_AND2X2
+AOAI21X1_47 [_570_ _571_ w_C_36_] _572_ d_lut_OAI21X1
+ANAND2X1_82 [_572_ _576_] _345__36_ d_lut_NAND2X1
+AINVX1_89 [w_C_37_] _580_ d_lut_INVX1
+AOR2X2_40 [i_add2_37_ i_add1_37_] _581_ d_lut_OR2X2
+ANAND2X1_83 [i_add2_37_ i_add1_37_] _582_ d_lut_NAND2X1
+ANAND3X1_56 [_580_ _582_ _581_] _583_ d_lut_NAND3X1
+ANOR2X1_59 [i_add2_37_ i_add1_37_] _577_ d_lut_NOR2X1
+AAND2X2_43 [i_add2_37_ i_add1_37_] _578_ d_lut_AND2X2
+AOAI21X1_48 [_577_ _578_ w_C_37_] _579_ d_lut_OAI21X1
+ANAND2X1_84 [_579_ _583_] _345__37_ d_lut_NAND2X1
+AINVX1_90 [w_C_38_] _587_ d_lut_INVX1
+AOR2X2_41 [i_add2_38_ i_add1_38_] _588_ d_lut_OR2X2
+ANAND2X1_85 [i_add2_38_ i_add1_38_] _589_ d_lut_NAND2X1
+ANAND3X1_57 [_587_ _589_ _588_] _590_ d_lut_NAND3X1
+ANOR2X1_60 [i_add2_38_ i_add1_38_] _584_ d_lut_NOR2X1
+AAND2X2_44 [i_add2_38_ i_add1_38_] _585_ d_lut_AND2X2
+AOAI21X1_49 [_584_ _585_ w_C_38_] _586_ d_lut_OAI21X1
+ANAND2X1_86 [_586_ _590_] _345__38_ d_lut_NAND2X1
+AINVX1_91 [w_C_39_] _594_ d_lut_INVX1
+AOR2X2_42 [i_add2_39_ i_add1_39_] _595_ d_lut_OR2X2
+ANAND2X1_87 [i_add2_39_ i_add1_39_] _596_ d_lut_NAND2X1
+ANAND3X1_58 [_594_ _596_ _595_] _597_ d_lut_NAND3X1
+ANOR2X1_61 [i_add2_39_ i_add1_39_] _591_ d_lut_NOR2X1
+AAND2X2_45 [i_add2_39_ i_add1_39_] _592_ d_lut_AND2X2
+AOAI21X1_50 [_591_ _592_ w_C_39_] _593_ d_lut_OAI21X1
+ANAND2X1_88 [_593_ _597_] _345__39_ d_lut_NAND2X1
+AINVX1_92 [w_C_40_] _601_ d_lut_INVX1
+AOR2X2_43 [i_add2_40_ i_add1_40_] _602_ d_lut_OR2X2
+ANAND2X1_89 [i_add2_40_ i_add1_40_] _603_ d_lut_NAND2X1
+ANAND3X1_59 [_601_ _603_ _602_] _604_ d_lut_NAND3X1
+ANOR2X1_62 [i_add2_40_ i_add1_40_] _598_ d_lut_NOR2X1
+AAND2X2_46 [i_add2_40_ i_add1_40_] _599_ d_lut_AND2X2
+AOAI21X1_51 [_598_ _599_ w_C_40_] _600_ d_lut_OAI21X1
+ANAND2X1_90 [_600_ _604_] _345__40_ d_lut_NAND2X1
+AINVX1_93 [w_C_41_] _608_ d_lut_INVX1
+AOR2X2_44 [i_add2_41_ i_add1_41_] _609_ d_lut_OR2X2
+ANAND2X1_91 [i_add2_41_ i_add1_41_] _610_ d_lut_NAND2X1
+ANAND3X1_60 [_608_ _610_ _609_] _611_ d_lut_NAND3X1
+ANOR2X1_63 [i_add2_41_ i_add1_41_] _605_ d_lut_NOR2X1
+AAND2X2_47 [i_add2_41_ i_add1_41_] _606_ d_lut_AND2X2
+AOAI21X1_52 [_605_ _606_ w_C_41_] _607_ d_lut_OAI21X1
+ANAND2X1_92 [_607_ _611_] _345__41_ d_lut_NAND2X1
+AINVX1_94 [w_C_42_] _615_ d_lut_INVX1
+AOR2X2_45 [i_add2_42_ i_add1_42_] _616_ d_lut_OR2X2
+ANAND2X1_93 [i_add2_42_ i_add1_42_] _617_ d_lut_NAND2X1
+ANAND3X1_61 [_615_ _617_ _616_] _618_ d_lut_NAND3X1
+ANOR2X1_64 [i_add2_42_ i_add1_42_] _612_ d_lut_NOR2X1
+AAND2X2_48 [i_add2_42_ i_add1_42_] _613_ d_lut_AND2X2
+AOAI21X1_53 [_612_ _613_ w_C_42_] _614_ d_lut_OAI21X1
+ANAND2X1_94 [_614_ _618_] _345__42_ d_lut_NAND2X1
+AINVX1_95 [w_C_43_] _622_ d_lut_INVX1
+AOR2X2_46 [i_add2_43_ i_add1_43_] _623_ d_lut_OR2X2
+ANAND2X1_95 [i_add2_43_ i_add1_43_] _624_ d_lut_NAND2X1
+ANAND3X1_62 [_622_ _624_ _623_] _625_ d_lut_NAND3X1
+ANOR2X1_65 [i_add2_43_ i_add1_43_] _619_ d_lut_NOR2X1
+AAND2X2_49 [i_add2_43_ i_add1_43_] _620_ d_lut_AND2X2
+AOAI21X1_54 [_619_ _620_ w_C_43_] _621_ d_lut_OAI21X1
+ANAND2X1_96 [_621_ _625_] _345__43_ d_lut_NAND2X1
+AINVX1_96 [w_C_44_] _629_ d_lut_INVX1
+AOR2X2_47 [i_add2_44_ i_add1_44_] _630_ d_lut_OR2X2
+ANAND2X1_97 [i_add2_44_ i_add1_44_] _631_ d_lut_NAND2X1
+ANAND3X1_63 [_629_ _631_ _630_] _632_ d_lut_NAND3X1
+ANOR2X1_66 [i_add2_44_ i_add1_44_] _626_ d_lut_NOR2X1
+AAND2X2_50 [i_add2_44_ i_add1_44_] _627_ d_lut_AND2X2
+AOAI21X1_55 [_626_ _627_ w_C_44_] _628_ d_lut_OAI21X1
+ANAND2X1_98 [_628_ _632_] _345__44_ d_lut_NAND2X1
+AINVX1_97 [w_C_45_] _636_ d_lut_INVX1
+AOR2X2_48 [i_add2_45_ i_add1_45_] _637_ d_lut_OR2X2
+ANAND2X1_99 [i_add2_45_ i_add1_45_] _638_ d_lut_NAND2X1
+ANAND3X1_64 [_636_ _638_ _637_] _639_ d_lut_NAND3X1
+ANOR2X1_67 [i_add2_45_ i_add1_45_] _633_ d_lut_NOR2X1
+AAND2X2_51 [i_add2_45_ i_add1_45_] _634_ d_lut_AND2X2
+AOAI21X1_56 [_633_ _634_ w_C_45_] _635_ d_lut_OAI21X1
+ANAND2X1_100 [_635_ _639_] _345__45_ d_lut_NAND2X1
+AINVX1_98 [w_C_46_] _643_ d_lut_INVX1
+AOR2X2_49 [i_add2_46_ i_add1_46_] _644_ d_lut_OR2X2
+ANAND2X1_101 [i_add2_46_ i_add1_46_] _645_ d_lut_NAND2X1
+ANAND3X1_65 [_643_ _645_ _644_] _646_ d_lut_NAND3X1
+ANOR2X1_68 [i_add2_46_ i_add1_46_] _640_ d_lut_NOR2X1
+AAND2X2_52 [i_add2_46_ i_add1_46_] _641_ d_lut_AND2X2
+AOAI21X1_57 [_640_ _641_ w_C_46_] _642_ d_lut_OAI21X1
+ANAND2X1_102 [_642_ _646_] _345__46_ d_lut_NAND2X1
+AINVX1_99 [w_C_47_] _650_ d_lut_INVX1
+AOR2X2_50 [i_add2_47_ i_add1_47_] _651_ d_lut_OR2X2
+ANAND2X1_103 [i_add2_47_ i_add1_47_] _652_ d_lut_NAND2X1
+ANAND3X1_66 [_650_ _652_ _651_] _653_ d_lut_NAND3X1
+ANOR2X1_69 [i_add2_47_ i_add1_47_] _647_ d_lut_NOR2X1
+AAND2X2_53 [i_add2_47_ i_add1_47_] _648_ d_lut_AND2X2
+AOAI21X1_58 [_647_ _648_ w_C_47_] _649_ d_lut_OAI21X1
+ANAND2X1_104 [_649_ _653_] _345__47_ d_lut_NAND2X1
+AINVX1_100 [w_C_48_] _657_ d_lut_INVX1
+AOR2X2_51 [i_add2_48_ i_add1_48_] _658_ d_lut_OR2X2
+ANAND2X1_105 [i_add2_48_ i_add1_48_] _659_ d_lut_NAND2X1
+ANAND3X1_67 [_657_ _659_ _658_] _660_ d_lut_NAND3X1
+ANOR2X1_70 [i_add2_48_ i_add1_48_] _654_ d_lut_NOR2X1
+AAND2X2_54 [i_add2_48_ i_add1_48_] _655_ d_lut_AND2X2
+AOAI21X1_59 [_654_ _655_ w_C_48_] _656_ d_lut_OAI21X1
+ANAND2X1_106 [_656_ _660_] _345__48_ d_lut_NAND2X1
+AINVX1_101 [w_C_49_] _664_ d_lut_INVX1
+AOR2X2_52 [i_add2_49_ i_add1_49_] _665_ d_lut_OR2X2
+ANAND2X1_107 [i_add2_49_ i_add1_49_] _666_ d_lut_NAND2X1
+ANAND3X1_68 [_664_ _666_ _665_] _667_ d_lut_NAND3X1
+ANOR2X1_71 [i_add2_49_ i_add1_49_] _661_ d_lut_NOR2X1
+AAND2X2_55 [i_add2_49_ i_add1_49_] _662_ d_lut_AND2X2
+AOAI21X1_60 [_661_ _662_ w_C_49_] _663_ d_lut_OAI21X1
+ANAND2X1_108 [_663_ _667_] _345__49_ d_lut_NAND2X1
+AINVX1_102 [w_C_50_] _671_ d_lut_INVX1
+AOR2X2_53 [i_add2_50_ i_add1_50_] _672_ d_lut_OR2X2
+ANAND2X1_109 [i_add2_50_ i_add1_50_] _673_ d_lut_NAND2X1
+ANAND3X1_69 [_671_ _673_ _672_] _674_ d_lut_NAND3X1
+ANOR2X1_72 [i_add2_50_ i_add1_50_] _668_ d_lut_NOR2X1
+AAND2X2_56 [i_add2_50_ i_add1_50_] _669_ d_lut_AND2X2
+AOAI21X1_61 [_668_ _669_ w_C_50_] _670_ d_lut_OAI21X1
+ANAND2X1_110 [_670_ _674_] _345__50_ d_lut_NAND2X1
+AINVX1_103 [w_C_51_] _678_ d_lut_INVX1
+AOR2X2_54 [i_add2_51_ i_add1_51_] _679_ d_lut_OR2X2
+ANAND2X1_111 [i_add2_51_ i_add1_51_] _680_ d_lut_NAND2X1
+ANAND3X1_70 [_678_ _680_ _679_] _681_ d_lut_NAND3X1
+ANOR2X1_73 [i_add2_51_ i_add1_51_] _675_ d_lut_NOR2X1
+AAND2X2_57 [i_add2_51_ i_add1_51_] _676_ d_lut_AND2X2
+AOAI21X1_62 [_675_ _676_ w_C_51_] _677_ d_lut_OAI21X1
+ANAND2X1_112 [_677_ _681_] _345__51_ d_lut_NAND2X1
+AINVX1_104 [w_C_52_] _685_ d_lut_INVX1
+AOR2X2_55 [i_add2_52_ i_add1_52_] _686_ d_lut_OR2X2
+ANAND2X1_113 [i_add2_52_ i_add1_52_] _687_ d_lut_NAND2X1
+ANAND3X1_71 [_685_ _687_ _686_] _688_ d_lut_NAND3X1
+ANOR2X1_74 [i_add2_52_ i_add1_52_] _682_ d_lut_NOR2X1
+AAND2X2_58 [i_add2_52_ i_add1_52_] _683_ d_lut_AND2X2
+AOAI21X1_63 [_682_ _683_ w_C_52_] _684_ d_lut_OAI21X1
+ANAND2X1_114 [_684_ _688_] _345__52_ d_lut_NAND2X1
+AINVX1_105 [w_C_53_] _692_ d_lut_INVX1
+AOR2X2_56 [i_add2_53_ i_add1_53_] _693_ d_lut_OR2X2
+ANAND2X1_115 [i_add2_53_ i_add1_53_] _694_ d_lut_NAND2X1
+ANAND3X1_72 [_692_ _694_ _693_] _695_ d_lut_NAND3X1
+ANOR2X1_75 [i_add2_53_ i_add1_53_] _689_ d_lut_NOR2X1
+AAND2X2_59 [i_add2_53_ i_add1_53_] _690_ d_lut_AND2X2
+AOAI21X1_64 [_689_ _690_ w_C_53_] _691_ d_lut_OAI21X1
+ANAND2X1_116 [_691_ _695_] _345__53_ d_lut_NAND2X1
+AINVX1_106 [w_C_54_] _699_ d_lut_INVX1
+AOR2X2_57 [i_add2_54_ i_add1_54_] _700_ d_lut_OR2X2
+ANAND2X1_117 [i_add2_54_ i_add1_54_] _701_ d_lut_NAND2X1
+ANAND3X1_73 [_699_ _701_ _700_] _702_ d_lut_NAND3X1
+ANOR2X1_76 [i_add2_54_ i_add1_54_] _696_ d_lut_NOR2X1
+AAND2X2_60 [i_add2_54_ i_add1_54_] _697_ d_lut_AND2X2
+AOAI21X1_65 [_696_ _697_ w_C_54_] _698_ d_lut_OAI21X1
+ANAND2X1_118 [_698_ _702_] _345__54_ d_lut_NAND2X1
+AINVX1_107 [w_C_55_] _706_ d_lut_INVX1
+AOR2X2_58 [i_add2_55_ i_add1_55_] _707_ d_lut_OR2X2
+ANAND2X1_119 [i_add2_55_ i_add1_55_] _708_ d_lut_NAND2X1
+ANAND3X1_74 [_706_ _708_ _707_] _709_ d_lut_NAND3X1
+ANOR2X1_77 [i_add2_55_ i_add1_55_] _703_ d_lut_NOR2X1
+AAND2X2_61 [i_add2_55_ i_add1_55_] _704_ d_lut_AND2X2
+AOAI21X1_66 [_703_ _704_ w_C_55_] _705_ d_lut_OAI21X1
+ANAND2X1_120 [_705_ _709_] _345__55_ d_lut_NAND2X1
+AINVX1_108 [w_C_56_] _713_ d_lut_INVX1
+AOR2X2_59 [i_add2_56_ i_add1_56_] _714_ d_lut_OR2X2
+ANAND2X1_121 [i_add2_56_ i_add1_56_] _715_ d_lut_NAND2X1
+ANAND3X1_75 [_713_ _715_ _714_] _716_ d_lut_NAND3X1
+ANOR2X1_78 [i_add2_56_ i_add1_56_] _710_ d_lut_NOR2X1
+AAND2X2_62 [i_add2_56_ i_add1_56_] _711_ d_lut_AND2X2
+AOAI21X1_67 [_710_ _711_ w_C_56_] _712_ d_lut_OAI21X1
+ANAND2X1_122 [_712_ _716_] _345__56_ d_lut_NAND2X1
+AINVX1_109 [gnd] _720_ d_lut_INVX1
+AOR2X2_60 [i_add2_0_ i_add1_0_] _721_ d_lut_OR2X2
+ANAND2X1_123 [i_add2_0_ i_add1_0_] _722_ d_lut_NAND2X1
+ANAND3X1_76 [_720_ _722_ _721_] _723_ d_lut_NAND3X1
+ANOR2X1_79 [i_add2_0_ i_add1_0_] _717_ d_lut_NOR2X1
+AAND2X2_63 [i_add2_0_ i_add1_0_] _718_ d_lut_AND2X2
+AOAI21X1_68 [_717_ _718_ gnd] _719_ d_lut_OAI21X1
+ANAND2X1_124 [_719_ _723_] _345__0_ d_lut_NAND2X1
+AINVX1_110 [w_C_1_] _727_ d_lut_INVX1
+AOR2X2_61 [i_add2_1_ i_add1_1_] _728_ d_lut_OR2X2
+ANAND2X1_125 [i_add2_1_ i_add1_1_] _729_ d_lut_NAND2X1
+ANAND3X1_77 [_727_ _729_ _728_] _730_ d_lut_NAND3X1
+ANOR2X1_80 [i_add2_1_ i_add1_1_] _724_ d_lut_NOR2X1
+AAND2X2_64 [i_add2_1_ i_add1_1_] _725_ d_lut_AND2X2
+AOAI21X1_69 [_724_ _725_ w_C_1_] _726_ d_lut_OAI21X1
+ANAND2X1_126 [_726_ _730_] _345__1_ d_lut_NAND2X1
+AINVX1_111 [w_C_2_] _734_ d_lut_INVX1
+AOR2X2_62 [i_add2_2_ i_add1_2_] _735_ d_lut_OR2X2
+ANAND2X1_127 [i_add2_2_ i_add1_2_] _736_ d_lut_NAND2X1
+ANAND3X1_78 [_734_ _736_ _735_] _737_ d_lut_NAND3X1
+ANOR2X1_81 [i_add2_2_ i_add1_2_] _731_ d_lut_NOR2X1
+AAND2X2_65 [i_add2_2_ i_add1_2_] _732_ d_lut_AND2X2
+AOAI21X1_70 [_731_ _732_ w_C_2_] _733_ d_lut_OAI21X1
+ANAND2X1_128 [_733_ _737_] _345__2_ d_lut_NAND2X1
+AINVX1_112 [w_C_3_] _741_ d_lut_INVX1
+AOR2X2_63 [i_add2_3_ i_add1_3_] _742_ d_lut_OR2X2
+ANAND2X1_129 [i_add2_3_ i_add1_3_] _743_ d_lut_NAND2X1
+ANAND3X1_79 [_741_ _743_ _742_] _744_ d_lut_NAND3X1
+ANOR2X1_82 [i_add2_3_ i_add1_3_] _738_ d_lut_NOR2X1
+AAND2X2_66 [i_add2_3_ i_add1_3_] _739_ d_lut_AND2X2
+AOAI21X1_71 [_738_ _739_ w_C_3_] _740_ d_lut_OAI21X1
+ANAND2X1_130 [_740_ _744_] _345__3_ d_lut_NAND2X1
+ANAND3X1_80 [_101_ _103_ _94_] _104_ d_lut_NAND3X1
+AAND2X2_67 [_104_ _99_] _105_ d_lut_AND2X2
+AINVX1_113 [_105_] w_C_19_ d_lut_INVX1
+AAND2X2_68 [i_add2_19_ i_add1_19_] _106_ d_lut_AND2X2
+AINVX1_114 [_106_] _107_ d_lut_INVX1
+ANAND3X1_81 [_99_ _107_ _104_] _108_ d_lut_NAND3X1
+AOAI21X1_72 [i_add2_19_ i_add1_19_ _108_] _109_ d_lut_OAI21X1
+AINVX1_115 [_109_] w_C_20_ d_lut_INVX1
+AINVX1_116 [i_add2_20_] _110_ d_lut_INVX1
+AINVX1_117 [i_add1_20_] _111_ d_lut_INVX1
+ANOR2X1_83 [_110_ _111_] _112_ d_lut_NOR2X1
+AINVX1_118 [_112_] _113_ d_lut_INVX1
+ANOR2X1_84 [i_add2_19_ i_add1_19_] _114_ d_lut_NOR2X1
+AINVX1_119 [_114_] _115_ d_lut_INVX1
+ANOR2X1_85 [i_add2_20_ i_add1_20_] _116_ d_lut_NOR2X1
+AINVX1_120 [_116_] _117_ d_lut_INVX1
+ANAND3X1_82 [_115_ _117_ _108_] _118_ d_lut_NAND3X1
+AAND2X2_69 [_118_ _113_] _119_ d_lut_AND2X2
+AINVX1_121 [_119_] w_C_21_ d_lut_INVX1
+AAND2X2_70 [i_add2_21_ i_add1_21_] _120_ d_lut_AND2X2
+AINVX1_122 [_120_] _121_ d_lut_INVX1
+ANAND3X1_83 [_113_ _121_ _118_] _122_ d_lut_NAND3X1
+AOAI21X1_73 [i_add2_21_ i_add1_21_ _122_] _123_ d_lut_OAI21X1
+AINVX1_123 [_123_] w_C_22_ d_lut_INVX1
+AINVX1_124 [i_add2_22_] _124_ d_lut_INVX1
+AINVX1_125 [i_add1_22_] _125_ d_lut_INVX1
+ANOR2X1_86 [_124_ _125_] _126_ d_lut_NOR2X1
+AINVX1_126 [_126_] _127_ d_lut_INVX1
+ANOR2X1_87 [i_add2_21_ i_add1_21_] _128_ d_lut_NOR2X1
+AINVX1_127 [_128_] _129_ d_lut_INVX1
+ANOR2X1_88 [i_add2_22_ i_add1_22_] _130_ d_lut_NOR2X1
+AINVX1_128 [_130_] _131_ d_lut_INVX1
+ANAND3X1_84 [_129_ _131_ _122_] _132_ d_lut_NAND3X1
+AAND2X2_71 [_132_ _127_] _133_ d_lut_AND2X2
+AINVX1_129 [_133_] w_C_23_ d_lut_INVX1
+AAND2X2_72 [i_add2_23_ i_add1_23_] _134_ d_lut_AND2X2
+AINVX1_130 [_134_] _135_ d_lut_INVX1
+ANAND3X1_85 [_127_ _135_ _132_] _136_ d_lut_NAND3X1
+AOAI21X1_74 [i_add2_23_ i_add1_23_ _136_] _137_ d_lut_OAI21X1
+AINVX1_131 [_137_] w_C_24_ d_lut_INVX1
+AINVX1_132 [i_add2_24_] _138_ d_lut_INVX1
+AINVX1_133 [i_add1_24_] _139_ d_lut_INVX1
+ANOR2X1_89 [_138_ _139_] _140_ d_lut_NOR2X1
+AINVX1_134 [_140_] _141_ d_lut_INVX1
+ANOR2X1_90 [i_add2_23_ i_add1_23_] _142_ d_lut_NOR2X1
+AINVX1_135 [_142_] _143_ d_lut_INVX1
+ANOR2X1_91 [i_add2_24_ i_add1_24_] _144_ d_lut_NOR2X1
+AINVX1_136 [_144_] _145_ d_lut_INVX1
+ANAND3X1_86 [_143_ _145_ _136_] _146_ d_lut_NAND3X1
+AAND2X2_73 [_146_ _141_] _147_ d_lut_AND2X2
+AINVX1_137 [_147_] w_C_25_ d_lut_INVX1
+AAND2X2_74 [i_add2_25_ i_add1_25_] _148_ d_lut_AND2X2
+AINVX1_138 [_148_] _149_ d_lut_INVX1
+ANAND3X1_87 [_141_ _149_ _146_] _150_ d_lut_NAND3X1
+AOAI21X1_75 [i_add2_25_ i_add1_25_ _150_] _151_ d_lut_OAI21X1
+AINVX1_139 [_151_] w_C_26_ d_lut_INVX1
+AINVX1_140 [i_add2_26_] _152_ d_lut_INVX1
+AINVX1_141 [i_add1_26_] _153_ d_lut_INVX1
+ANOR2X1_92 [_152_ _153_] _154_ d_lut_NOR2X1
+AINVX1_142 [_154_] _155_ d_lut_INVX1
+ANOR2X1_93 [i_add2_25_ i_add1_25_] _156_ d_lut_NOR2X1
+AINVX1_143 [_156_] _157_ d_lut_INVX1
+ANOR2X1_94 [i_add2_26_ i_add1_26_] _158_ d_lut_NOR2X1
+AINVX1_144 [_158_] _159_ d_lut_INVX1
+ANAND3X1_88 [_157_ _159_ _150_] _160_ d_lut_NAND3X1
+AAND2X2_75 [_160_ _155_] _161_ d_lut_AND2X2
+AINVX1_145 [_161_] w_C_27_ d_lut_INVX1
+AAND2X2_76 [i_add2_27_ i_add1_27_] _162_ d_lut_AND2X2
+AINVX1_146 [_162_] _163_ d_lut_INVX1
+ANAND3X1_89 [_155_ _163_ _160_] _164_ d_lut_NAND3X1
+AOAI21X1_76 [i_add2_27_ i_add1_27_ _164_] _165_ d_lut_OAI21X1
+AINVX1_147 [_165_] w_C_28_ d_lut_INVX1
+AINVX1_148 [i_add2_28_] _166_ d_lut_INVX1
+AINVX1_149 [i_add1_28_] _167_ d_lut_INVX1
+ANOR2X1_95 [_166_ _167_] _168_ d_lut_NOR2X1
+AINVX1_150 [_168_] _169_ d_lut_INVX1
+ANOR2X1_96 [i_add2_27_ i_add1_27_] _170_ d_lut_NOR2X1
+AINVX1_151 [_170_] _171_ d_lut_INVX1
+ANOR2X1_97 [i_add2_28_ i_add1_28_] _172_ d_lut_NOR2X1
+AINVX1_152 [_172_] _173_ d_lut_INVX1
+ANAND3X1_90 [_171_ _173_ _164_] _174_ d_lut_NAND3X1
+AAND2X2_77 [_174_ _169_] _175_ d_lut_AND2X2
+AINVX1_153 [_175_] w_C_29_ d_lut_INVX1
+AAND2X2_78 [i_add2_29_ i_add1_29_] _176_ d_lut_AND2X2
+AINVX1_154 [_176_] _177_ d_lut_INVX1
+ANAND3X1_91 [_169_ _177_ _174_] _178_ d_lut_NAND3X1
+AOAI21X1_77 [i_add2_29_ i_add1_29_ _178_] _179_ d_lut_OAI21X1
+AINVX1_155 [_179_] w_C_30_ d_lut_INVX1
+AINVX1_156 [i_add2_30_] _180_ d_lut_INVX1
+AINVX1_157 [i_add1_30_] _181_ d_lut_INVX1
+ANOR2X1_98 [_180_ _181_] _182_ d_lut_NOR2X1
+AINVX1_158 [_182_] _183_ d_lut_INVX1
+ANOR2X1_99 [i_add2_29_ i_add1_29_] _184_ d_lut_NOR2X1
+AINVX1_159 [_184_] _185_ d_lut_INVX1
+ANOR2X1_100 [i_add2_30_ i_add1_30_] _186_ d_lut_NOR2X1
+AINVX1_160 [_186_] _187_ d_lut_INVX1
+ANAND3X1_92 [_185_ _187_ _178_] _188_ d_lut_NAND3X1
+AAND2X2_79 [_188_ _183_] _189_ d_lut_AND2X2
+AINVX1_161 [_189_] w_C_31_ d_lut_INVX1
+AAND2X2_80 [i_add2_31_ i_add1_31_] _190_ d_lut_AND2X2
+AINVX1_162 [_190_] _191_ d_lut_INVX1
+ANAND3X1_93 [_183_ _191_ _188_] _192_ d_lut_NAND3X1
+AOAI21X1_78 [i_add2_31_ i_add1_31_ _192_] _193_ d_lut_OAI21X1
+AINVX1_163 [_193_] w_C_32_ d_lut_INVX1
+AINVX1_164 [i_add2_32_] _194_ d_lut_INVX1
+AINVX1_165 [i_add1_32_] _195_ d_lut_INVX1
+ANOR2X1_101 [_194_ _195_] _196_ d_lut_NOR2X1
+AINVX1_166 [_196_] _197_ d_lut_INVX1
+ANOR2X1_102 [i_add2_31_ i_add1_31_] _198_ d_lut_NOR2X1
+AINVX1_167 [_198_] _199_ d_lut_INVX1
+ANOR2X1_103 [i_add2_32_ i_add1_32_] _200_ d_lut_NOR2X1
+AINVX1_168 [_200_] _201_ d_lut_INVX1
+ANAND3X1_94 [_199_ _201_ _192_] _202_ d_lut_NAND3X1
+AAND2X2_81 [_202_ _197_] _203_ d_lut_AND2X2
+AINVX1_169 [_203_] w_C_33_ d_lut_INVX1
+AAND2X2_82 [i_add2_33_ i_add1_33_] _204_ d_lut_AND2X2
+AINVX1_170 [_204_] _205_ d_lut_INVX1
+ANAND3X1_95 [_197_ _205_ _202_] _206_ d_lut_NAND3X1
+AOAI21X1_79 [i_add2_33_ i_add1_33_ _206_] _207_ d_lut_OAI21X1
+AINVX1_171 [_207_] w_C_34_ d_lut_INVX1
+AINVX1_172 [i_add2_34_] _208_ d_lut_INVX1
+AINVX1_173 [i_add1_34_] _209_ d_lut_INVX1
+ANOR2X1_104 [_208_ _209_] _210_ d_lut_NOR2X1
+AINVX1_174 [_210_] _211_ d_lut_INVX1
+ANOR2X1_105 [i_add2_33_ i_add1_33_] _212_ d_lut_NOR2X1
+AINVX1_175 [_212_] _213_ d_lut_INVX1
+ANOR2X1_106 [i_add2_34_ i_add1_34_] _214_ d_lut_NOR2X1
+AINVX1_176 [_214_] _215_ d_lut_INVX1
+ANAND3X1_96 [_213_ _215_ _206_] _216_ d_lut_NAND3X1
+AAND2X2_83 [_216_ _211_] _217_ d_lut_AND2X2
+AINVX1_177 [_217_] w_C_35_ d_lut_INVX1
+AAND2X2_84 [i_add2_35_ i_add1_35_] _218_ d_lut_AND2X2
+AINVX1_178 [_218_] _219_ d_lut_INVX1
+ANAND3X1_97 [_211_ _219_ _216_] _220_ d_lut_NAND3X1
+AOAI21X1_80 [i_add2_35_ i_add1_35_ _220_] _221_ d_lut_OAI21X1
+AINVX1_179 [_221_] w_C_36_ d_lut_INVX1
+AINVX1_180 [i_add2_36_] _222_ d_lut_INVX1
+AINVX1_181 [i_add1_36_] _223_ d_lut_INVX1
+ANOR2X1_107 [_222_ _223_] _224_ d_lut_NOR2X1
+AINVX1_182 [_224_] _225_ d_lut_INVX1
+ANOR2X1_108 [i_add2_35_ i_add1_35_] _226_ d_lut_NOR2X1
+AINVX1_183 [_226_] _227_ d_lut_INVX1
+ANOR2X1_109 [i_add2_36_ i_add1_36_] _228_ d_lut_NOR2X1
+AINVX1_184 [_228_] _229_ d_lut_INVX1
+ANAND3X1_98 [_227_ _229_ _220_] _230_ d_lut_NAND3X1
+AAND2X2_85 [_230_ _225_] _231_ d_lut_AND2X2
+AINVX1_185 [_231_] w_C_37_ d_lut_INVX1
+AAND2X2_86 [i_add2_37_ i_add1_37_] _232_ d_lut_AND2X2
+AINVX1_186 [_232_] _233_ d_lut_INVX1
+ANAND3X1_99 [_225_ _233_ _230_] _234_ d_lut_NAND3X1
+AOAI21X1_81 [i_add2_37_ i_add1_37_ _234_] _235_ d_lut_OAI21X1
+AINVX1_187 [_235_] w_C_38_ d_lut_INVX1
+AINVX1_188 [i_add2_38_] _236_ d_lut_INVX1
+AINVX1_189 [i_add1_38_] _237_ d_lut_INVX1
+ANOR2X1_110 [_236_ _237_] _238_ d_lut_NOR2X1
+AINVX1_190 [_238_] _239_ d_lut_INVX1
+ANOR2X1_111 [i_add2_37_ i_add1_37_] _240_ d_lut_NOR2X1
+AINVX1_191 [_240_] _241_ d_lut_INVX1
+ANOR2X1_112 [i_add2_38_ i_add1_38_] _242_ d_lut_NOR2X1
+AINVX1_192 [_242_] _243_ d_lut_INVX1
+ANAND3X1_100 [_241_ _243_ _234_] _244_ d_lut_NAND3X1
+AAND2X2_87 [_244_ _239_] _245_ d_lut_AND2X2
+AINVX1_193 [_245_] w_C_39_ d_lut_INVX1
+AAND2X2_88 [i_add2_39_ i_add1_39_] _246_ d_lut_AND2X2
+AINVX1_194 [_246_] _247_ d_lut_INVX1
+ANAND3X1_101 [_239_ _247_ _244_] _248_ d_lut_NAND3X1
+AOAI21X1_82 [i_add2_39_ i_add1_39_ _248_] _249_ d_lut_OAI21X1
+AINVX1_195 [_249_] w_C_40_ d_lut_INVX1
+AINVX1_196 [i_add2_40_] _250_ d_lut_INVX1
+AINVX1_197 [i_add1_40_] _251_ d_lut_INVX1
+ANOR2X1_113 [_250_ _251_] _252_ d_lut_NOR2X1
+AINVX1_198 [_252_] _253_ d_lut_INVX1
+ANOR2X1_114 [i_add2_39_ i_add1_39_] _254_ d_lut_NOR2X1
+AINVX1_199 [_254_] _255_ d_lut_INVX1
+ANOR2X1_115 [i_add2_40_ i_add1_40_] _256_ d_lut_NOR2X1
+AINVX1_200 [_256_] _257_ d_lut_INVX1
+ANAND3X1_102 [_255_ _257_ _248_] _258_ d_lut_NAND3X1
+AAND2X2_89 [_258_ _253_] _259_ d_lut_AND2X2
+AINVX1_201 [_259_] w_C_41_ d_lut_INVX1
+AAND2X2_90 [i_add2_41_ i_add1_41_] _260_ d_lut_AND2X2
+AINVX1_202 [_260_] _261_ d_lut_INVX1
+ANAND3X1_103 [_253_ _261_ _258_] _262_ d_lut_NAND3X1
+AOAI21X1_83 [i_add2_41_ i_add1_41_ _262_] _263_ d_lut_OAI21X1
+AINVX1_203 [_263_] w_C_42_ d_lut_INVX1
+AINVX1_204 [i_add2_42_] _264_ d_lut_INVX1
+AINVX1_205 [i_add1_42_] _265_ d_lut_INVX1
+ANOR2X1_116 [_264_ _265_] _266_ d_lut_NOR2X1
+AINVX1_206 [_266_] _267_ d_lut_INVX1
+ANOR2X1_117 [i_add2_41_ i_add1_41_] _268_ d_lut_NOR2X1
+AINVX1_207 [_268_] _269_ d_lut_INVX1
+ANOR2X1_118 [i_add2_42_ i_add1_42_] _270_ d_lut_NOR2X1
+AINVX1_208 [_270_] _271_ d_lut_INVX1
+ANAND3X1_104 [_269_ _271_ _262_] _272_ d_lut_NAND3X1
+AAND2X2_91 [_272_ _267_] _273_ d_lut_AND2X2
+AINVX1_209 [_273_] w_C_43_ d_lut_INVX1
+AAND2X2_92 [i_add2_43_ i_add1_43_] _274_ d_lut_AND2X2
+AINVX1_210 [_274_] _275_ d_lut_INVX1
+ANAND3X1_105 [_267_ _275_ _272_] _276_ d_lut_NAND3X1
+AOAI21X1_84 [i_add2_43_ i_add1_43_ _276_] _277_ d_lut_OAI21X1
+AINVX1_211 [_277_] w_C_44_ d_lut_INVX1
+AINVX1_212 [i_add2_44_] _278_ d_lut_INVX1
+AINVX1_213 [i_add1_44_] _279_ d_lut_INVX1
+ANOR2X1_119 [_278_ _279_] _280_ d_lut_NOR2X1
+AINVX1_214 [_280_] _281_ d_lut_INVX1
+ANOR2X1_120 [i_add2_43_ i_add1_43_] _282_ d_lut_NOR2X1
+AINVX1_215 [_282_] _283_ d_lut_INVX1
+ANOR2X1_121 [i_add2_44_ i_add1_44_] _284_ d_lut_NOR2X1
+AINVX1_216 [_284_] _285_ d_lut_INVX1
+ANAND3X1_106 [_283_ _285_ _276_] _286_ d_lut_NAND3X1
+AAND2X2_93 [_286_ _281_] _287_ d_lut_AND2X2
+AINVX1_217 [_287_] w_C_45_ d_lut_INVX1
+AAND2X2_94 [i_add2_45_ i_add1_45_] _288_ d_lut_AND2X2
+AINVX1_218 [_288_] _289_ d_lut_INVX1
+ANAND3X1_107 [_281_ _289_ _286_] _290_ d_lut_NAND3X1
+AOAI21X1_85 [i_add2_45_ i_add1_45_ _290_] _291_ d_lut_OAI21X1
+AINVX1_219 [_291_] w_C_46_ d_lut_INVX1
+ANAND2X1_131 [i_add2_46_ i_add1_46_] _292_ d_lut_NAND2X1
+ANOR2X1_122 [i_add2_46_ i_add1_46_] _293_ d_lut_NOR2X1
+AOAI21X1_86 [_293_ _291_ _292_] w_C_47_ d_lut_OAI21X1
+AOR2X2_64 [i_add2_47_ i_add1_47_] _294_ d_lut_OR2X2
+ANOR2X1_123 [i_add2_45_ i_add1_45_] _295_ d_lut_NOR2X1
+AINVX1_220 [_295_] _296_ d_lut_INVX1
+AINVX1_221 [_293_] _297_ d_lut_INVX1
+ANAND3X1_108 [_296_ _297_ _290_] _298_ d_lut_NAND3X1
+ANAND2X1_132 [i_add2_47_ i_add1_47_] _299_ d_lut_NAND2X1
+ANAND3X1_109 [_292_ _299_ _298_] _300_ d_lut_NAND3X1
+AAND2X2_95 [_300_ _294_] w_C_48_ d_lut_AND2X2
+AINVX1_222 [i_add2_48_] _301_ d_lut_INVX1
+AINVX1_223 [i_add1_48_] _302_ d_lut_INVX1
+ANAND2X1_133 [_301_ _302_] _303_ d_lut_NAND2X1
+ANAND3X1_110 [_294_ _303_ _300_] _304_ d_lut_NAND3X1
+AOAI21X1_87 [_301_ _302_ _304_] w_C_49_ d_lut_OAI21X1
+AINVX1_224 [i_add2_49_] _305_ d_lut_INVX1
+AINVX1_225 [i_add1_49_] _306_ d_lut_INVX1
+ANAND2X1_134 [_305_ _306_] _307_ d_lut_NAND2X1
+ANAND2X1_135 [i_add2_48_ i_add1_48_] _308_ d_lut_NAND2X1
+ANAND2X1_136 [i_add2_49_ i_add1_49_] _309_ d_lut_NAND2X1
+ANAND3X1_111 [_308_ _309_ _304_] _310_ d_lut_NAND3X1
+AAND2X2_96 [_310_ _307_] w_C_50_ d_lut_AND2X2
+AINVX1_226 [i_add2_50_] _311_ d_lut_INVX1
+AINVX1_227 [i_add1_50_] _312_ d_lut_INVX1
+ANAND2X1_137 [_311_ _312_] _313_ d_lut_NAND2X1
+ANAND3X1_112 [_307_ _313_ _310_] _314_ d_lut_NAND3X1
+AOAI21X1_88 [_311_ _312_ _314_] w_C_51_ d_lut_OAI21X1
+AINVX1_228 [i_add2_51_] _315_ d_lut_INVX1
+AINVX1_229 [i_add1_51_] _316_ d_lut_INVX1
+AOAI21X1_89 [i_add2_51_ i_add1_51_ w_C_51_] _317_ d_lut_OAI21X1
+AOAI21X1_90 [_315_ _316_ _317_] w_C_52_ d_lut_OAI21X1
+ANOR2X1_124 [_315_ _316_] _318_ d_lut_NOR2X1
+AINVX1_230 [_318_] _319_ d_lut_INVX1
+AAND2X2_97 [i_add2_52_ i_add1_52_] _320_ d_lut_AND2X2
+AINVX1_231 [_320_] _321_ d_lut_INVX1
+ANAND3X1_113 [_319_ _321_ _317_] _322_ d_lut_NAND3X1
+AOAI21X1_91 [i_add2_52_ i_add1_52_ _322_] _323_ d_lut_OAI21X1
+AINVX1_232 [_323_] w_C_53_ d_lut_INVX1
+ABUFX2_59 [w_C_57_] _345__57_ d_lut_BUFX2
+ABUFX2_60 [gnd] w_C_0_ d_lut_BUFX2
+
+.model todig_3v3 adc_bridge(in_high=2.1999999999999997 in_low=1.0999999999999999 rise_delay=10n fall_delay=10n)
+.model toana_3v3 dac_bridge(out_high=3.3 out_low=0)
+
+.model ddflop d_dff(ic=0 rise_delay=1n fall_delay=1n)
+.model dzero d_pulldown(load=1p)
+.model done d_pullup(load=1p)
+
+AA2D1 [a_vdd] [vdd] todig_3v3
+AA2D2 [a_gnd] [gnd] todig_3v3
+AA2D3 [a_i_add1_0_] [i_add1_0_] todig_3v3
+AA2D4 [a_i_add1_1_] [i_add1_1_] todig_3v3
+AA2D5 [a_i_add1_2_] [i_add1_2_] todig_3v3
+AA2D6 [a_i_add1_3_] [i_add1_3_] todig_3v3
+AA2D7 [a_i_add1_4_] [i_add1_4_] todig_3v3
+AA2D8 [a_i_add1_5_] [i_add1_5_] todig_3v3
+AA2D9 [a_i_add1_6_] [i_add1_6_] todig_3v3
+AA2D10 [a_i_add1_7_] [i_add1_7_] todig_3v3
+AA2D11 [a_i_add1_8_] [i_add1_8_] todig_3v3
+AA2D12 [a_i_add1_9_] [i_add1_9_] todig_3v3
+AA2D13 [a_i_add1_10_] [i_add1_10_] todig_3v3
+AA2D14 [a_i_add1_11_] [i_add1_11_] todig_3v3
+AA2D15 [a_i_add1_12_] [i_add1_12_] todig_3v3
+AA2D16 [a_i_add1_13_] [i_add1_13_] todig_3v3
+AA2D17 [a_i_add1_14_] [i_add1_14_] todig_3v3
+AA2D18 [a_i_add1_15_] [i_add1_15_] todig_3v3
+AA2D19 [a_i_add1_16_] [i_add1_16_] todig_3v3
+AA2D20 [a_i_add1_17_] [i_add1_17_] todig_3v3
+AA2D21 [a_i_add1_18_] [i_add1_18_] todig_3v3
+AA2D22 [a_i_add1_19_] [i_add1_19_] todig_3v3
+AA2D23 [a_i_add1_20_] [i_add1_20_] todig_3v3
+AA2D24 [a_i_add1_21_] [i_add1_21_] todig_3v3
+AA2D25 [a_i_add1_22_] [i_add1_22_] todig_3v3
+AA2D26 [a_i_add1_23_] [i_add1_23_] todig_3v3
+AA2D27 [a_i_add1_24_] [i_add1_24_] todig_3v3
+AA2D28 [a_i_add1_25_] [i_add1_25_] todig_3v3
+AA2D29 [a_i_add1_26_] [i_add1_26_] todig_3v3
+AA2D30 [a_i_add1_27_] [i_add1_27_] todig_3v3
+AA2D31 [a_i_add1_28_] [i_add1_28_] todig_3v3
+AA2D32 [a_i_add1_29_] [i_add1_29_] todig_3v3
+AA2D33 [a_i_add1_30_] [i_add1_30_] todig_3v3
+AA2D34 [a_i_add1_31_] [i_add1_31_] todig_3v3
+AA2D35 [a_i_add1_32_] [i_add1_32_] todig_3v3
+AA2D36 [a_i_add1_33_] [i_add1_33_] todig_3v3
+AA2D37 [a_i_add1_34_] [i_add1_34_] todig_3v3
+AA2D38 [a_i_add1_35_] [i_add1_35_] todig_3v3
+AA2D39 [a_i_add1_36_] [i_add1_36_] todig_3v3
+AA2D40 [a_i_add1_37_] [i_add1_37_] todig_3v3
+AA2D41 [a_i_add1_38_] [i_add1_38_] todig_3v3
+AA2D42 [a_i_add1_39_] [i_add1_39_] todig_3v3
+AA2D43 [a_i_add1_40_] [i_add1_40_] todig_3v3
+AA2D44 [a_i_add1_41_] [i_add1_41_] todig_3v3
+AA2D45 [a_i_add1_42_] [i_add1_42_] todig_3v3
+AA2D46 [a_i_add1_43_] [i_add1_43_] todig_3v3
+AA2D47 [a_i_add1_44_] [i_add1_44_] todig_3v3
+AA2D48 [a_i_add1_45_] [i_add1_45_] todig_3v3
+AA2D49 [a_i_add1_46_] [i_add1_46_] todig_3v3
+AA2D50 [a_i_add1_47_] [i_add1_47_] todig_3v3
+AA2D51 [a_i_add1_48_] [i_add1_48_] todig_3v3
+AA2D52 [a_i_add1_49_] [i_add1_49_] todig_3v3
+AA2D53 [a_i_add1_50_] [i_add1_50_] todig_3v3
+AA2D54 [a_i_add1_51_] [i_add1_51_] todig_3v3
+AA2D55 [a_i_add1_52_] [i_add1_52_] todig_3v3
+AA2D56 [a_i_add1_53_] [i_add1_53_] todig_3v3
+AA2D57 [a_i_add1_54_] [i_add1_54_] todig_3v3
+AA2D58 [a_i_add1_55_] [i_add1_55_] todig_3v3
+AA2D59 [a_i_add1_56_] [i_add1_56_] todig_3v3
+AA2D60 [a_i_add2_0_] [i_add2_0_] todig_3v3
+AA2D61 [a_i_add2_1_] [i_add2_1_] todig_3v3
+AA2D62 [a_i_add2_2_] [i_add2_2_] todig_3v3
+AA2D63 [a_i_add2_3_] [i_add2_3_] todig_3v3
+AA2D64 [a_i_add2_4_] [i_add2_4_] todig_3v3
+AA2D65 [a_i_add2_5_] [i_add2_5_] todig_3v3
+AA2D66 [a_i_add2_6_] [i_add2_6_] todig_3v3
+AA2D67 [a_i_add2_7_] [i_add2_7_] todig_3v3
+AA2D68 [a_i_add2_8_] [i_add2_8_] todig_3v3
+AA2D69 [a_i_add2_9_] [i_add2_9_] todig_3v3
+AA2D70 [a_i_add2_10_] [i_add2_10_] todig_3v3
+AA2D71 [a_i_add2_11_] [i_add2_11_] todig_3v3
+AA2D72 [a_i_add2_12_] [i_add2_12_] todig_3v3
+AA2D73 [a_i_add2_13_] [i_add2_13_] todig_3v3
+AA2D74 [a_i_add2_14_] [i_add2_14_] todig_3v3
+AA2D75 [a_i_add2_15_] [i_add2_15_] todig_3v3
+AA2D76 [a_i_add2_16_] [i_add2_16_] todig_3v3
+AA2D77 [a_i_add2_17_] [i_add2_17_] todig_3v3
+AA2D78 [a_i_add2_18_] [i_add2_18_] todig_3v3
+AA2D79 [a_i_add2_19_] [i_add2_19_] todig_3v3
+AA2D80 [a_i_add2_20_] [i_add2_20_] todig_3v3
+AA2D81 [a_i_add2_21_] [i_add2_21_] todig_3v3
+AA2D82 [a_i_add2_22_] [i_add2_22_] todig_3v3
+AA2D83 [a_i_add2_23_] [i_add2_23_] todig_3v3
+AA2D84 [a_i_add2_24_] [i_add2_24_] todig_3v3
+AA2D85 [a_i_add2_25_] [i_add2_25_] todig_3v3
+AA2D86 [a_i_add2_26_] [i_add2_26_] todig_3v3
+AA2D87 [a_i_add2_27_] [i_add2_27_] todig_3v3
+AA2D88 [a_i_add2_28_] [i_add2_28_] todig_3v3
+AA2D89 [a_i_add2_29_] [i_add2_29_] todig_3v3
+AA2D90 [a_i_add2_30_] [i_add2_30_] todig_3v3
+AA2D91 [a_i_add2_31_] [i_add2_31_] todig_3v3
+AA2D92 [a_i_add2_32_] [i_add2_32_] todig_3v3
+AA2D93 [a_i_add2_33_] [i_add2_33_] todig_3v3
+AA2D94 [a_i_add2_34_] [i_add2_34_] todig_3v3
+AA2D95 [a_i_add2_35_] [i_add2_35_] todig_3v3
+AA2D96 [a_i_add2_36_] [i_add2_36_] todig_3v3
+AA2D97 [a_i_add2_37_] [i_add2_37_] todig_3v3
+AA2D98 [a_i_add2_38_] [i_add2_38_] todig_3v3
+AA2D99 [a_i_add2_39_] [i_add2_39_] todig_3v3
+AA2D100 [a_i_add2_40_] [i_add2_40_] todig_3v3
+AA2D101 [a_i_add2_41_] [i_add2_41_] todig_3v3
+AA2D102 [a_i_add2_42_] [i_add2_42_] todig_3v3
+AA2D103 [a_i_add2_43_] [i_add2_43_] todig_3v3
+AA2D104 [a_i_add2_44_] [i_add2_44_] todig_3v3
+AA2D105 [a_i_add2_45_] [i_add2_45_] todig_3v3
+AA2D106 [a_i_add2_46_] [i_add2_46_] todig_3v3
+AA2D107 [a_i_add2_47_] [i_add2_47_] todig_3v3
+AA2D108 [a_i_add2_48_] [i_add2_48_] todig_3v3
+AA2D109 [a_i_add2_49_] [i_add2_49_] todig_3v3
+AA2D110 [a_i_add2_50_] [i_add2_50_] todig_3v3
+AA2D111 [a_i_add2_51_] [i_add2_51_] todig_3v3
+AA2D112 [a_i_add2_52_] [i_add2_52_] todig_3v3
+AA2D113 [a_i_add2_53_] [i_add2_53_] todig_3v3
+AA2D114 [a_i_add2_54_] [i_add2_54_] todig_3v3
+AA2D115 [a_i_add2_55_] [i_add2_55_] todig_3v3
+AA2D116 [a_i_add2_56_] [i_add2_56_] todig_3v3
+AD2A1 [o_result_0_] [a_o_result_0_] toana_3v3
+AD2A2 [o_result_1_] [a_o_result_1_] toana_3v3
+AD2A3 [o_result_2_] [a_o_result_2_] toana_3v3
+AD2A4 [o_result_3_] [a_o_result_3_] toana_3v3
+AD2A5 [o_result_4_] [a_o_result_4_] toana_3v3
+AD2A6 [o_result_5_] [a_o_result_5_] toana_3v3
+AD2A7 [o_result_6_] [a_o_result_6_] toana_3v3
+AD2A8 [o_result_7_] [a_o_result_7_] toana_3v3
+AD2A9 [o_result_8_] [a_o_result_8_] toana_3v3
+AD2A10 [o_result_9_] [a_o_result_9_] toana_3v3
+AD2A11 [o_result_10_] [a_o_result_10_] toana_3v3
+AD2A12 [o_result_11_] [a_o_result_11_] toana_3v3
+AD2A13 [o_result_12_] [a_o_result_12_] toana_3v3
+AD2A14 [o_result_13_] [a_o_result_13_] toana_3v3
+AD2A15 [o_result_14_] [a_o_result_14_] toana_3v3
+AD2A16 [o_result_15_] [a_o_result_15_] toana_3v3
+AD2A17 [o_result_16_] [a_o_result_16_] toana_3v3
+AD2A18 [o_result_17_] [a_o_result_17_] toana_3v3
+AD2A19 [o_result_18_] [a_o_result_18_] toana_3v3
+AD2A20 [o_result_19_] [a_o_result_19_] toana_3v3
+AD2A21 [o_result_20_] [a_o_result_20_] toana_3v3
+AD2A22 [o_result_21_] [a_o_result_21_] toana_3v3
+AD2A23 [o_result_22_] [a_o_result_22_] toana_3v3
+AD2A24 [o_result_23_] [a_o_result_23_] toana_3v3
+AD2A25 [o_result_24_] [a_o_result_24_] toana_3v3
+AD2A26 [o_result_25_] [a_o_result_25_] toana_3v3
+AD2A27 [o_result_26_] [a_o_result_26_] toana_3v3
+AD2A28 [o_result_27_] [a_o_result_27_] toana_3v3
+AD2A29 [o_result_28_] [a_o_result_28_] toana_3v3
+AD2A30 [o_result_29_] [a_o_result_29_] toana_3v3
+AD2A31 [o_result_30_] [a_o_result_30_] toana_3v3
+AD2A32 [o_result_31_] [a_o_result_31_] toana_3v3
+AD2A33 [o_result_32_] [a_o_result_32_] toana_3v3
+AD2A34 [o_result_33_] [a_o_result_33_] toana_3v3
+AD2A35 [o_result_34_] [a_o_result_34_] toana_3v3
+AD2A36 [o_result_35_] [a_o_result_35_] toana_3v3
+AD2A37 [o_result_36_] [a_o_result_36_] toana_3v3
+AD2A38 [o_result_37_] [a_o_result_37_] toana_3v3
+AD2A39 [o_result_38_] [a_o_result_38_] toana_3v3
+AD2A40 [o_result_39_] [a_o_result_39_] toana_3v3
+AD2A41 [o_result_40_] [a_o_result_40_] toana_3v3
+AD2A42 [o_result_41_] [a_o_result_41_] toana_3v3
+AD2A43 [o_result_42_] [a_o_result_42_] toana_3v3
+AD2A44 [o_result_43_] [a_o_result_43_] toana_3v3
+AD2A45 [o_result_44_] [a_o_result_44_] toana_3v3
+AD2A46 [o_result_45_] [a_o_result_45_] toana_3v3
+AD2A47 [o_result_46_] [a_o_result_46_] toana_3v3
+AD2A48 [o_result_47_] [a_o_result_47_] toana_3v3
+AD2A49 [o_result_48_] [a_o_result_48_] toana_3v3
+AD2A50 [o_result_49_] [a_o_result_49_] toana_3v3
+AD2A51 [o_result_50_] [a_o_result_50_] toana_3v3
+AD2A52 [o_result_51_] [a_o_result_51_] toana_3v3
+AD2A53 [o_result_52_] [a_o_result_52_] toana_3v3
+AD2A54 [o_result_53_] [a_o_result_53_] toana_3v3
+AD2A55 [o_result_54_] [a_o_result_54_] toana_3v3
+AD2A56 [o_result_55_] [a_o_result_55_] toana_3v3
+AD2A57 [o_result_56_] [a_o_result_56_] toana_3v3
+AD2A58 [o_result_57_] [a_o_result_57_] toana_3v3
+
+.ends cla_57bit
+ 
+
+* NAND2X1 (!(A B))
+.model d_lut_NAND2X1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "1110")
+* NOR2X1 (!(A+B))
+.model d_lut_NOR2X1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "1000")
+* OAI21X1 (!((A+B) C))
+.model d_lut_OAI21X1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "11111000")
+* INVX1 (!A)
+.model d_lut_INVX1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "10")
+* NAND3X1 (!((A B) C))
+.model d_lut_NAND3X1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "11111110")
+* OR2X2 (A+B)
+.model d_lut_OR2X2 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "0111")
+* AND2X2 (A B)
+.model d_lut_AND2X2 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "0001")
+* BUFX2 A
+.model d_lut_BUFX2 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "01")
+.end

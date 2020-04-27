@@ -1,0 +1,5 @@
+# Synthesis script for yosys created by qflow
+read_liberty -lib -ignore_miss_dir -setattr blackbox /usr/local/share/qflow/tech/osu035/osu035_stdcells.lib
+read_verilog  /hdd/xuenong/Adder_Classification/source/generateBatchAdder_CSkipA/source/CSkipA_7bit.rtlbb.v
+# Hierarchy check
+hierarchy -check
