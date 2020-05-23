@@ -1,0 +1,12 @@
+Qflow project preparation output log Thu Apr 30 14:26:47 2020
+
+--------------------------------
+Qflow project setup
+--------------------------------
+
+Technology set to osu035
+Regenerating files for existing project rca_4bit
+
+No actions specified on command line;
+creating qflow script file /hdd/xuenong/Adder_Classification/source_new/testBatchAdderGenerator_rca/qflow_exec.sh only.
+Uncomment lines in this file and source the file to run the flow.

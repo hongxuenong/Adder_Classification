@@ -1,6 +1,6 @@
 #!/bin/tcsh -f
 #------------------------------------------------------------
-# project variables for project /hdd/LT-user/HA2-D5.5/testBatchAdderGenerator
+# project variables for project /hdd/xuenong/Adder_Classification/source_new/testBatchAdderGenerator_rca
 #------------------------------------------------------------
 
 # Synthesis command options:

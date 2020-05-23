@@ -1,0 +1,8 @@
+Starting new log file Thu Apr 30 14:26:28 2020
+
+--------------------------------
+Qflow project setup
+/usr/local/share/qflow/scripts/getpowerground.tcl: Command not found.
+--------------------------------
+/usr/local/share/qflow/scripts/ypostproc.tcl: Command not found.
+Errors in synthesis flow, qflow status = 1

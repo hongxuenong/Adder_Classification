@@ -1,6 +1,6 @@
 # Synthesis script for yosys created by qflow
 read_liberty -lib -ignore_miss_dir -setattr blackbox /usr/local/share/qflow/tech/osu035/osu035_stdcells.lib
-read_verilog  /hdd/xuenong/Adder_Classification/source/testBatchAdderGenerator/source/rca_12bit.v
+read_verilog  /hdd/xuenong/Adder_Classification/source_new/testBatchAdderGenerator_rca/source/rca_12bit.v
 
 # High-level synthesis
 synth -top rca_12bit
@@ -20,5 +20,5 @@ iopadmap -outpad BUFX2 A:Y -bits
 opt
 clean
 rename -enumerate
-write_blif  -buf BUFX2 A Y rca_12bit_mapped.blif
+write_verilog  rca_12bit_mapped.v
 stat
